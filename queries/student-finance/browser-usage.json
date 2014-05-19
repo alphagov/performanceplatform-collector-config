@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "student-finance", 
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser"
+    ], 
+    "id": "ga:75709479", 
+    "metrics": [
+      "visitors"
+    ]
+  }, 
+  "token": "ga"
+}

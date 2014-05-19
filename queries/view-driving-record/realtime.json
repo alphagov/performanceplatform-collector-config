@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "view-driving-record", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "filters": "ga:pagePath=~^/view-driving-licence$", 
+    "ids": "ga:74313105", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

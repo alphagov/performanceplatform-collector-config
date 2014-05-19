@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "deposit-foreign-marriage", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "deposit_foreign_marriage"
+  }, 
+  "token": "pingdom"
+}

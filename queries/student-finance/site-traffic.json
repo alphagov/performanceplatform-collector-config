@@ -1,0 +1,15 @@
+{
+  "data-set": {
+    "data-group": "student-finance", 
+    "data-type": "site-traffic"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:75709479", 
+    "metrics": [
+      "visitors"
+    ]
+  }, 
+  "token": "ga"
+}

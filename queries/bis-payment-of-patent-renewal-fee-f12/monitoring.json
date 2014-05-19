@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "bis-payment-of-patent-renewal-fee-f12", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "bis_payment_of_patent_renewal_fee_f12"
+  }, 
+  "token": "pingdom"
+}

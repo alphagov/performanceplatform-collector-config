@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "waste-carriers-registration", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "waste_carriers_registration"
+  }, 
+  "token": "pingdom"
+}

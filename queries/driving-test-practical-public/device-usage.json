@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "driving-test-practical-public", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:64942391", 
+    "metrics": [
+      "visitors"
+    ]
+  }, 
+  "token": "ga"
+}

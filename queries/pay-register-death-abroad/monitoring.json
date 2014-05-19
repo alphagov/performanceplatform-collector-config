@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "pay-register-death-abroad", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "pay_register_death_abroad"
+  }, 
+  "token": "pingdom"
+}

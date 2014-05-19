@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "sorn", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "filters": "ga:pagePath=~^/register-sorn-statutory-off-road-notification$", 
+    "ids": "ga:84778268", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

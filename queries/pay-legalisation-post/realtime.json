@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "pay-legalisation-post", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "filters": "ga:pagePath=~/pay-legalisation-post", 
+    "ids": "ga:84775792", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "pay-foreign-marriage-certificates", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "pay_foreign_marriage_certificates"
+  }, 
+  "token": "pingdom"
+}

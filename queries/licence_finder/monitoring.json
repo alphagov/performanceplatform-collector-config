@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "licence_finder", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "licence_finder"
+  }, 
+  "token": "pingdom"
+}
