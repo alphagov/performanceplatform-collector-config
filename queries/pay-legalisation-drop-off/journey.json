@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "pay-legalisation-drop-off", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "eventCategory"
+    ], 
+    "filters": [
+      "eventCategory=~^pay-legalisation-drop-off:"
+    ], 
+    "id": "ga:56580952", 
+    "metrics": [
+      "uniqueEvents"
+    ]
+  }, 
+  "token": "ga"
+}

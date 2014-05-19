@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "licensing", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "eventCategory"
+    ], 
+    "filters": [
+      "eventCategory=~^licensingUserJourney:"
+    ], 
+    "id": "ga:56580952", 
+    "metrics": [
+      "uniqueEvents"
+    ]
+  }, 
+  "token": "ga"
+}

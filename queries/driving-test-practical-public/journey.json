@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "driving-test-practical-public", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "mappings": {
+      "eventLabel_0": "eventType", 
+      "eventLabel_1": "eventDetail"
+    }
+  }, 
+  "query": {
+    "dimensions": [
+      "eventCategory", 
+      "eventAction"
+    ], 
+    "filters": [
+      "eventCategory=~^pp-(book|change)-practical-driving-test-*"
+    ], 
+    "id": "ga:64942391", 
+    "metrics": [
+      "uniqueEvents"
+    ]
+  }, 
+  "token": "ga"
+}

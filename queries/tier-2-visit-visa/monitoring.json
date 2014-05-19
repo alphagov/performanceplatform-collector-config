@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "tier-2-visit-visa", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "tier_2_visit_visa"
+  }, 
+  "token": "pingdom"
+}

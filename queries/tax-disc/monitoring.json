@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "tax-disc", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "Electronic Vehicle Licensing - Tax Disc"
+  }, 
+  "token": "pingdom"
+}

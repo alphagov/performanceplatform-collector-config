@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "tier-2-visit-visa", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "eventAction"
+    ], 
+    "filters": [
+      "eventCategory=~^tier2"
+    ], 
+    "id": "ga:81779532", 
+    "metrics": [
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}

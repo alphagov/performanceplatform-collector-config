@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "waste-carriers-registration", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "filters": "ga:pagePath=~^/waste-carrier-or-broker-registration$", 
+    "ids": "ga:84778268", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
