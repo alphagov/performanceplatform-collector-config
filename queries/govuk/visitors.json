@@ -4,7 +4,11 @@
     "data-type": "visitors"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "additionalFields": {
+      "website": "govuk"
+    }
+  }, 
   "query": {
     "id": "ga:56580952", 
     "metrics": [
