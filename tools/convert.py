@@ -9,13 +9,14 @@ from os.path import join, isfile, exists
 # To generate the data set mapping json file run the following javascript:
 #
 # var rows = document.querySelectorAll('#result_list tr');
-# JSON.stringify(Array.prototype.reduce.call(rows, function(datasets, row) {
+# var config = JSON.stringify(Array.prototype.reduce.call(
+#                             rows, function(datasets, row) {
 #
 #   var arr = Array.prototype.map.call(row.children, function(col) {
 #     return col.innerText;
 #   });
 #
-#   datasets[arr[0]] = { "data-group": arr[1], "data-type": arr[2] }
+#   datasets[arr[1]] = { "data-group": arr[2], "data-type": arr[3] }
 #
 #   return datasets;
 #
