@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "tier-2-visit-visa", 
+    "data-type": "devices"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:81779532", 
+    "metrics": [
+      "visitors"
+    ]
+  }, 
+  "token": "ga"
+}
