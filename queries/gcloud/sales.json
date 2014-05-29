@@ -1,0 +1,12 @@
+{
+  "entrypoint": "performanceplatform.collector.gcloud",
+  "data-set": {
+    "data-group": "gcloud",
+    "data-type": "sales"
+  },
+  "query": {
+  },
+  "options": {
+  },
+  "token": "gcloud"
+}
