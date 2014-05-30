@@ -6,8 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "filters": "ga:pagePath=~/pay-register-death-abroad", 
-    "ids": "ga:84775377", 
+    "ids": "ga:75441670", 
     "metrics": "ga:activeVisitors"
   }, 
   "token": "ga-realtime"

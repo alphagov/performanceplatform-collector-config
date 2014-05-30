@@ -9,10 +9,7 @@
     "dimensions": [
       "eventCategory"
     ], 
-    "filters": [
-      "eventCategory=~^pay-legalisation-post:"
-    ], 
-    "id": "ga:56580952", 
+    "id": "ga:75447363", 
     "metrics": [
       "uniqueEvents"
     ]

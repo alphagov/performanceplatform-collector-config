@@ -6,13 +6,10 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
+    "id": "ga:75452311", 
     "dimensions": [
       "eventCategory"
     ], 
-    "filters": [
-      "eventCategory=~^pay-foreign-marriage-certificates:"
-    ], 
-    "id": "ga:56580952", 
     "metrics": [
       "uniqueEvents"
     ]
