@@ -84,7 +84,6 @@
 1-59/2 * * * *,queries/deposit-foreign-marriage/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/driving-test-practical-public/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/government/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
-1-59/2 * * * *,queries/lasting-power-of-attorney/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/licensing/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/pay-foreign-marriage-certificates/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/pay-legalisation-drop-off/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
