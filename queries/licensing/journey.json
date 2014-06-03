@@ -4,7 +4,9 @@
     "data-type": "journey"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "dataType": "licensing_overview_journey"
+  },
   "query": {
     "dimensions": [
       "eventCategory"
