@@ -15,5 +15,8 @@
       "visitors"
     ]
   }, 
-  "token": "ga"
+  "token": "ga",
+  "options": {
+    "dataType": "govuk_visitors"
+  }
 }
