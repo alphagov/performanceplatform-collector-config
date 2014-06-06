@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance",
+    "data-type": "time-taken-to-complete"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "eventCategory",
+      "eventAction",
+      "eventLabel"
+    ],
+    "filters": [
+      "eventCategory==carers-allowance",
+      "eventLabel==thank-you"
+    ],
+    "id": "ga:75455468",
+    "metrics": [
+      "avgSessionDuration"
+    ]
+  },
+  "token": "foo"
+}
