@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance",
+    "data-type": "time-spent-on-each-page"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "pagePathLevel1"
+    ],
+    "filters": [
+    ],
+    "id": "ga:75455468",
+    "metrics": [
+      "avgTimeOnPage",
+      "users",
+      "exits",
+      "exitRate"
+    ]
+  },
+  "token": "foo"
+}
