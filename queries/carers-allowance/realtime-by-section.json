@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance",
+    "data-type": "realtime-by-section"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:78169243",
+    "metrics": "ga:activeVisitors",
+    "dimensions": "rt:pagePath"
+  },
+  "token": "ga-realtime"
+}
