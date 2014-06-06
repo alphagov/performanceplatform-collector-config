@@ -24,6 +24,10 @@ entrypoint_information = {
         'credentials': 'credentials/pingdom.json',
         'repeat': 'hourly',
     },
+    'performanceplatform.collector.gcloud': {
+        'credentials': '',
+        'repeat': 'daily',
+    },
 }
 
 
