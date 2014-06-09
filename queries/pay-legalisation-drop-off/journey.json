@@ -9,10 +9,7 @@
     "dimensions": [
       "eventCategory"
     ], 
-    "filters": [
-      "eventCategory=~^pay-legalisation-drop-off:"
-    ], 
-    "id": "ga:56580952", 
+    "id": "ga:75449560", 
     "metrics": [
       "uniqueEvents"
     ]

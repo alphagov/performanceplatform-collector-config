@@ -6,8 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "filters": "ga:pagePath=~/pay-legalisation-post", 
-    "ids": "ga:84775792", 
+    "ids": "ga:75447363", 
     "metrics": "ga:activeVisitors"
   }, 
   "token": "ga-realtime"

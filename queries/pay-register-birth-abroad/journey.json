@@ -9,10 +9,7 @@
     "dimensions": [
       "eventCategory"
     ], 
-    "filters": [
-      "eventCategory=~^pay-register-birth-abroad:"
-    ], 
-    "id": "ga:56580952", 
+    "id": "ga:75449347", 
     "metrics": [
       "uniqueEvents"
     ]

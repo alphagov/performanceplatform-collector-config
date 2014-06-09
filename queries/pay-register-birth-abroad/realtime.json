@@ -6,8 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "filters": "ga:pagePath=~/pay-register-birth-abroad", 
-    "ids": "ga:84775377", 
+    "ids": "ga:75449347", 
     "metrics": "ga:activeVisitors"
   }, 
   "token": "ga-realtime"
