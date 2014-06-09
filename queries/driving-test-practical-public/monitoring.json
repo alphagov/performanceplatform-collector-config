@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "driving-test-practical-public", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "driving-test-practical-public"
+  }, 
+  "token": "pingdom"
+}

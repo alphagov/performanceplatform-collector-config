@@ -73,6 +73,7 @@
 16 * * * *,queries/tier-2-visit-visa/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 17 * * * *,queries/view-driving-record/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 18 * * * *,queries/waste-carriers-registration/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+19 * * * *,queries/driving-test-practical-public/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 
 
 #
