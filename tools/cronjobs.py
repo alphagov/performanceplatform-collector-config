@@ -50,25 +50,75 @@ def two_minute(jobs):
     return entries
 
 
-def main():
-    queries = [os.path.join(dp, f) for dp, dn, filenames in os.walk('queries') for f in filenames if os.path.splitext(f)[1] == '.json']
-    time_data_sets = {}
+def setup_time_data_set(
+        query_info,
+        query,
+        token_file):
 
+    """Using default repeat
+    >>> token_file = 'abc.txt'
+    >>> query = {"some": 'query'}
+    >>> query_info = {
+    ... 'credentials': 'credentials/ga.json',
+    ... 'repeat': 'daily',
+    ... }
+    >>> setup_time_data_set(query_info, query, token_file)
+    ({'some': 'query'}, 'credentials/ga.json', 'abc.txt')
+
+    """
+
+    return (query, query_info['credentials'], token_file)
+
+
+def setup_time_data_sets(queries, entrypoint_information):
+    """Testing returns correct time grouped data sets
+    >>> entrypoint_information = {
+    ...   'performanceplatform.collector.pingdom': {
+    ...     'credentials': 'credentials/ga.json',
+    ...     'repeat': 'daily'
+    ...   }
+    ... }
+    >>> queries = ['queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json']
+    >>> setup_time_data_sets(queries, entrypoint_information)
+    {'daily': [('queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json', 'credentials/ga.json', 'tokens/pingdom.json')]}
+    >>> entrypoint_information = {
+    ...   'performanceplatform.collector.pingdom': {
+    ...     'credentials': 'credentials/ga.json',
+    ...     'repeat': 'daily'
+    ...   }
+    ... }
+    >>> queries = ['test/fixtures/query_with_repeat.json']
+    >>> setup_time_data_sets(queries, entrypoint_information)
+    {u'hourly': [('test/fixtures/query_with_repeat.json', 'credentials/ga.json', 'tokens/pingdom.json')]}
+    """
     for query in queries:
         with open(query) as query_fd:
             query_json = json.load(query_fd)
             entrypoint = query_json['entrypoint']
             token_file = "tokens/{0}.json".format(query_json['token'])
 
+        time_data_sets = {}
         query_info = entrypoint_information.get(entrypoint, None)
 
         if query_info is None:
             print "No entrypoint {0} from {1}".format(entrypoint, query)
-        else:
-            if query_info['repeat'] not in time_data_sets:
-                time_data_sets[query_info['repeat']] = []
 
-            time_data_sets[query_info['repeat']].append((query, query_info['credentials'], token_file))
+        repeat = query_json.get('repeat', query_info['repeat'])
+
+        if repeat not in time_data_sets:
+            time_data_sets[repeat] = []
+
+        time_data_sets[repeat].append(setup_time_data_set(
+            query_info,
+            query,
+            token_file))
+
+    return time_data_sets
+
+
+def main():
+    queries = [os.path.join(dp, f) for dp, dn, filenames in os.walk('queries') for f in filenames if os.path.splitext(f)[1] == '.json']
+    time_data_sets = setup_time_data_sets(queries, entrypoint_information)
 
     daily_jobs = daily(time_data_sets['daily'])
     hourly_jobs = hourly(time_data_sets['hourly'])
