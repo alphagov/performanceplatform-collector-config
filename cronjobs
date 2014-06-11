@@ -96,3 +96,4 @@
 1-59/2 * * * *,queries/tier-2-visit-visa/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/view-driving-record/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/waste-carriers-registration/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
+1-59/2 * * * *,queries/student-finance/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
