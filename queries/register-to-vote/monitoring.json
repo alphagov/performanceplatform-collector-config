@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "register-to-vote",
+    "data-type": "monitoring"
+  },
+  "entrypoint": "performanceplatform.collector.pingdom",
+  "options": {},
+  "query": {
+    "name": "register_to_vote"
+  },
+  "token": "pingdom"
+}
