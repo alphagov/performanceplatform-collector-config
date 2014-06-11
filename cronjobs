@@ -68,13 +68,14 @@
 11 * * * *,queries/pay-legalisation-post/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 12 * * * *,queries/pay-register-birth-abroad/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 13 * * * *,queries/pay-register-death-abroad/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-14 * * * *,queries/solihull-local-authority/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-15 * * * *,queries/sorn/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-16 * * * *,queries/student-finance/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-17 * * * *,queries/tax-disc/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-18 * * * *,queries/tier-2-visit-visa/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-19 * * * *,queries/view-driving-record/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-20 * * * *,queries/waste-carriers-registration/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+14 * * * *,queries/register-to-vote/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+15 * * * *,queries/solihull-local-authority/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+16 * * * *,queries/sorn/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+17 * * * *,queries/student-finance/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+18 * * * *,queries/tax-disc/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+19 * * * *,queries/tier-2-visit-visa/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+20 * * * *,queries/view-driving-record/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+21 * * * *,queries/waste-carriers-registration/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 
 
 #
