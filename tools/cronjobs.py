@@ -24,6 +24,10 @@ entrypoint_information = {
         'credentials': 'credentials/pingdom.json',
         'repeat': 'hourly',
     },
+    'performanceplatform.collector.gcloud': {
+        'credentials': 'credentials/gcloud.json',
+        'repeat': 'hourly',
+    },
 }
 
 
@@ -91,13 +95,13 @@ def setup_time_data_sets(queries, entrypoint_information):
     >>> setup_time_data_sets(queries, entrypoint_information)
     {u'hourly': [('test/fixtures/query_with_repeat.json', 'credentials/ga.json', 'tokens/pingdom.json')]}
     """
+    time_data_sets = {}
     for query in queries:
         with open(query) as query_fd:
             query_json = json.load(query_fd)
             entrypoint = query_json['entrypoint']
             token_file = "tokens/{0}.json".format(query_json['token'])
 
-        time_data_sets = {}
         query_info = entrypoint_information.get(entrypoint, None)
 
         if query_info is None:
