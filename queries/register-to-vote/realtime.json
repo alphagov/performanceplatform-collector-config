@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "register-to-vote",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:58451694",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}
