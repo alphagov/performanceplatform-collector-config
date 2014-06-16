@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "lasting-power-of-attorney", 
+    "data-type": "help-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "mappings": {
+      "eventLabel_1": "helpLabel"
+    }
+  }, 
+  "query": {
+    "dimensions": [
+      "eventLabel"
+    ], 
+    "filters": [
+      "ga:eventCategory==stageprompt.lpa;ga:eventAction==help.inline;ga:eventLabel!~^(user/forgotpw/email/|activate/)"
+    ], 
+    "id": "ga:74575786", 
+    "metrics": [
+      "uniqueEvents"
+    ]
+  }, 
+  "token": "ga"
+}
+
