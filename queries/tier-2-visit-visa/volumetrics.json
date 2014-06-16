@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "tier-2-visit-visa",
+    "data-type": "volumetrics"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "filters": [
+      "pagePath=~^/customer/[^/]+/complete$"
+    ],
+    "id": "ga:81779532",
+    "metrics": [
+      "uniquePageviews"
+    ]
+  },
+  "token": "ga"
+}
