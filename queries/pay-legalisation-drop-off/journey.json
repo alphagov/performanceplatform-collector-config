@@ -4,7 +4,11 @@
     "data-type": "journey"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "mappings": {
+      "eventCategory": "stage"
+    }
+  }, 
   "query": {
     "dimensions": [
       "eventCategory"

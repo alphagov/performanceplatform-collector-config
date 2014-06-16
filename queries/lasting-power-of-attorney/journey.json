@@ -6,18 +6,15 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "mappings": {
-      "eventLabel_0": "eventSource", 
-      "eventLabel_1": "eventDestination"
+      "eventLabel": ["stage", "eventLabel"]
     }
   }, 
   "query": {
     "dimensions": [
-      "eventCategory", 
-      "eventAction", 
       "eventLabel"
     ], 
     "filters": [
-      "eventCategory==stageprompt.lpa;ga:eventLabel!~^user/forgotpw/email/.*$;ga:eventLabel!~^activate/.*$"
+      "ga:eventCategory==stageprompt.lpa;ga:eventAction==page;ga:eventLabel!~^(user/forgotpw/email/|activate/)"
     ], 
     "id": "ga:74575786", 
     "metrics": [

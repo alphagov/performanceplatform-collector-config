@@ -4,15 +4,17 @@
     "data-type": "journey"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "mappings": {
+      "eventLabel": "stage"
+    }
+  }, 
   "query": {
     "dimensions": [
-      "eventCategory", 
-      "eventAction", 
       "eventLabel"
     ], 
     "filters": [
-      "eventCategory==carers-allowance"
+      "eventCategory==carers-allowance;eventAction==page"
     ], 
     "id": "ga:75455468", 
     "metrics": [

@@ -6,8 +6,8 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "mappings": {
-      "eventLabel_0": "eventType", 
-      "eventLabel_1": "eventDetail"
+      "eventCategory": "transaction",
+      "eventAction": "stage"
     }
   }, 
   "query": {
