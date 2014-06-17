@@ -47,7 +47,8 @@
 37 0 * * *,queries/student-finance/site-traffic.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 38 0 * * *,queries/tier-2-visit-visa/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 39 0 * * *,queries/tier-2-visit-visa/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-40 0 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+40 0 * * *,queries/tier-2-visit-visa/volumetrics.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+41 0 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 
 
 #
