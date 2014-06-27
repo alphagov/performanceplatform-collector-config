@@ -77,6 +77,7 @@
 19 * * * *,queries/tier-2-visit-visa/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 20 * * * *,queries/view-driving-record/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 21 * * * *,queries/waste-carriers-registration/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+22 * * * *,queries/carers-allowance/time-taken-to-complete.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 
 
 #

@@ -9,6 +9,9 @@ This repository holds all of the configuration for our_ instance of performancep
 Creating a new query
 ====================
 
+Add a new config file in :code:`/queries`.
+
+Update the cronjobs: :code:`python tools/cronjobs.py > cronjobs`.
 
 Reference
 =========
