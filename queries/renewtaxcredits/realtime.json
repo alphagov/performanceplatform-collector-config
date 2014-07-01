@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "renewtaxcredits",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:84609771",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}
