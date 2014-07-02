@@ -14,7 +14,7 @@
       "eventLabel"
     ],
     "filters": [
-      "eventCategory==carers-allowance;ga:eventLabel==thank-you"
+      "eventCategory==carers-allowance"
     ],
     "id": "ga:75455468",
     "metrics": [
