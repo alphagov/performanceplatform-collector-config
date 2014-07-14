@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "prison-visits",
+    "data-type": "monitoring"
+  },
+  "entrypoint": "performanceplatform.collector.pingdom",
+  "options": {},
+  "query": {
+    "name": "prison_visits"
+  },
+  "token": "pingdom"
+}
