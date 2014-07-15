@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "prison-visits",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:79096907",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}
