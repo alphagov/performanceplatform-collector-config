@@ -55,7 +55,14 @@
 45 0 * * *,queries/tier-2-visit-visa/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 46 0 * * *,queries/tier-2-visit-visa/volumetrics.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 47 0 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-
+48 0 * * *,queries/tax-vat-content/devices-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+49 0 * * *,queries/tax-vat-content/new-returning-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+50 0 * * *,queries/tax-vat-content/organic-rate.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+0 1 * * *,queries/tax-vat-content/pageviews-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+1 1 * * *,queries/tax-vat-content/referrers-rate.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+2 1 * * *,queries/tax-vat-content/social-rate.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+3 1 * * *,queries/tax-vat-content/top-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+4 1 * * *,queries/tax-vat-content/traffic-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 
 #
 # Hourly jobs
