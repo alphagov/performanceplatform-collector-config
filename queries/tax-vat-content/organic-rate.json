@@ -1,0 +1,31 @@
+{
+  "data-set": {
+    "data-group": "tax-vat-content",
+    "data-type": "organic-rate"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "plugins": [
+      "ComputeRank('rank')",
+      "ComputeIdFrom('_timestamp', 'timeSpan', 'dataType', 'rank')"
+    ]
+  },
+  "query": {
+    "dimensions": [
+      "keyword"
+    ],
+    "filters": [
+      "pagePath=~^(\\/vat|.*vat-|.*-vat).*$;ga:keyword!=(not set)"
+    ],
+    "id": "ga:74473500",
+    "maxResults": 10,
+    "metrics": [
+      "entrances",
+      "visitBounceRate"
+    ],
+    "sort": [
+      "-entrances"
+    ]
+  },
+  "token": "ga-content"
+}
