@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "tax-vat-content",
+    "data-type": "new-returning-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "plugins": [
+      "ComputeIdFrom('_timestamp', 'timeSpan', 'dataType', 'visitorType')"
+    ]
+  },
+  "query": {
+    "dimensions": [
+      "visitorType"
+    ],
+    "filters": ["pagePath=~^(\\/vat|.*vat-|.*-vat).*$"],
+    "id": "ga:74473500",
+    "maxResults": 0,
+    "metrics": [
+      "entrances"
+    ],
+    "sort": [
+      "visitorType"
+    ]
+  },
+  "token": "ga-content"
+}

@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "tax-vat-content",
+    "data-type": "devices-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "plugins": [
+      "ComputeIdFrom('_timestamp', 'timeSpan', 'dataType', 'deviceCategory')"
+    ]
+  },
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ],
+    "filters": ["pagePath=~^(\\/vat|.*vat-|.*-vat).*$"],
+    "id": "ga:74473500",
+    "maxResults": 0,
+    "metrics": [
+      "pageviews"
+    ],
+    "sort": [
+      "deviceCategory"
+    ]
+  },
+  "token": "ga-content"
+}

@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "tax-vat-content",
+    "data-type": "pageviews-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "plugins": [
+      "ComputeIdFrom('_timestamp', 'timeSpan', 'dataType')"
+    ]
+  },
+  "query": {
+    "dimensions": [],
+    "filters": ["pagePath=~^(\\/vat|.*vat-|.*-vat).*$"],
+    "id": "ga:74473500",
+    "maxResults": 0,
+    "metrics": [
+      "pageviews"
+    ],
+    "sort": []
+  },
+  "token": "ga-content"
+}
