@@ -7,7 +7,7 @@
   "options": {},
   "query": {
     "filters": [
-      "pagePath=~^/customer/[^/]+/complete$"
+      "pagePath=~^/customer/tier2-general/complete$"
     ],
     "id": "ga:81779532",
     "metrics": [
