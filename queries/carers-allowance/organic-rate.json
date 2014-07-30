@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance",
+    "data-type": "organic-rate"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "keyword"
+    ],
+    "filters": "ga:pagePath==/carers-allowance/how-to-claim;ga:keyword!=(not provided);ga:keyword!=(not set)",
+    "id": "ga:53872948",
+    "maxResults": 10,
+    "metrics": [
+      "entrances",
+      "visitBounceRate"
+    ],
+    "sort": [
+      "-entrances"
+    ]
+  },
+  "token": "ga-content"
+}

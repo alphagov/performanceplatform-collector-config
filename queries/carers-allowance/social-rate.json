@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance",
+    "data-type": "social-rate"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "socialNetwork"
+    ],
+    "filters": "ga:pagePath==/carers-allowance/how-to-claim;ga:socialNetwork!=(not set)",
+    "id": "ga:53872948",
+    "maxResults": 10,
+    "metrics": [
+      "entrances",
+      "visitBounceRate"
+    ],
+    "sort": [
+      "-entrances"
+    ]
+  },
+  "token": "ga-content"
+}
