@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "view-driving-record", 
+    "data-type": "devices"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:83729847", 
+    "metrics": [
+      "visitors"
+    ]
+  }, 
+  "token": "ga"
+}
