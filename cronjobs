@@ -67,7 +67,8 @@
 57 0 * * *,queries/tier-2-visit-visa/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 58 0 * * *,queries/tier-2-visit-visa/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 59 0 * * *,queries/tier-2-visit-visa/volumetrics.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-0 1 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+0 1 * * *,queries/view-driving-record/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+1 1 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 
 
 #
