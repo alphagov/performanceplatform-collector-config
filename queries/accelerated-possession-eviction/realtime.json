@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "accelerated-possession-eviction", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "filters": "ga:pagePath=~^/accelerated-possession-eviction$", 
+    "ids": "ga:84778268", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
