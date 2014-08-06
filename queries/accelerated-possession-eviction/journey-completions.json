@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "accelerated-possession-eviction", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "stage": "complete"
+    },
+    "mappings": {
+      "goal4Completions": "count"
+    },
+    "idMappings": ["_timestamp", "timeSpan", "stage"]
+  }, 
+  "query": {
+    "id": "ga:86360471", 
+    "metrics": [
+      "goal4Completions"
+    ]
+  }, 
+  "token": "ga"
+}
