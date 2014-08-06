@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "accelerated-possession-eviction", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "civil_claims_accelerated"
+  }, 
+  "token": "pingdom"
+}
