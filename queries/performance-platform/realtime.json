@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "performance-platform",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "id": "ga:62933120",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}
