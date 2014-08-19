@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "performance-platform",
+    "data-type": "devices"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ],
+    "id": "ga:62933120",
+    "metrics": [
+      "visitors"
+    ]
+  },
+  "token": "ga"
+}
