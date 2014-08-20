@@ -7,7 +7,8 @@
   "options": {},
   "query": {
     "dimensions": [
-      "browser"
+      "browser",
+      "browserVersion"
     ],
     "id": "ga:62933120",
     "metrics": [
