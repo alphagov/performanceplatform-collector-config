@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "govuk-info", 
+    "data-type": "search-terms"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "mappings": {
+      "searchStartPage": "pagePath"
+    }
+  }, 
+  "query": {
+    "frequency": "daily",
+    "dimensions": [
+      "searchStartPage",
+      "searchKeyword"
+    ], 
+    "filters": [
+      "ga:searchUniques>10"
+    ], 
+    "id": "ga:53872948", 
+    "metrics": [
+      "searchUniques"
+    ]
+  }, 
+  "token": "ga"
+}
