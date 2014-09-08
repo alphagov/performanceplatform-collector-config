@@ -1,0 +1,25 @@
+{
+  "data-set": {
+    "data-group": "govuk-info", 
+    "data-type": "page-statistics"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+  }, 
+  "query": {
+    "frequency": "daily",
+    "dimensions": [
+      "pagePath",
+      "pageTitle"
+    ], 
+    "filters": [
+      "pageTitle!~(3[0-9]{2} |4[0-9]{2} |5[0-9]{2} |An error has occurred)"
+    ], 
+    "id": "ga:53872948", 
+    "metrics": [
+      "uniquePageviews",
+      "avgTimeOnPage"
+    ]
+  }, 
+  "token": "ga"
+}
