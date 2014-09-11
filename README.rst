@@ -1,3 +1,6 @@
+.. image:: https://landscape.io/github/alphagov/performanceplatform-collector-config/master/landscape.png
+   :target: https://landscape.io/github/alphagov/performanceplatform-collector-config/master
+   :alt: Code Health
 
 This repository holds all of the configuration for our_ instance of performanceplatform-collector_.
 
