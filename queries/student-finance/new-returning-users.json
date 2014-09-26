@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "student-finance", 
+    "data-type": "new-returning-users"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "maxResults": 100,
+  "query": {
+    "id": "ga:75709479",
+    "dimensions": [
+      "userType",
+      "eventCategory",
+      "eventAction",
+      "eventLabel"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}
