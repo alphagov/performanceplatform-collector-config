@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "legal-aid-civil-claims", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "filters": "ga:eventCategory==Clicks;ga:eventAction==PortalHomePageClicks;ga:eventLabel==CCMS", 
+    "id": "ga:70111431", 
+    "metrics": [
+      "sessions"
+    ]
+  }, 
+  "token": "ga"
+}
