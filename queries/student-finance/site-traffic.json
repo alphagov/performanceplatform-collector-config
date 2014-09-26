@@ -8,7 +8,7 @@
   "query": {
     "id": "ga:75709479", 
     "metrics": [
-      "visitors"
+      "users"
     ]
   }, 
   "token": "ga"
