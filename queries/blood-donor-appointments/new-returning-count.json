@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "blood-donor-appointments", 
+    "data-type": "new-returning-count"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:77430707",
+    "dimensions": [
+      "userType"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}

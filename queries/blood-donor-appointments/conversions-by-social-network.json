@@ -1,0 +1,31 @@
+{
+  "data-set": {
+    "data-group": "blood-donor-appointments", 
+    "data-type": "conversions-by-social-network"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:77430707",
+    "dimensions": [
+      "socialNetwork"
+    ],
+    "metrics": [
+      "sessions",
+      "percentNewSessions",
+      "avgSessionDuration",
+      "bounceRate",
+      "goal1ConversionRate",
+      "goal2ConversionRate",
+      "goal3ConversionRate"
+    ],
+    "filters": [
+      "socialNetwork!=(not set)"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 20
+  }, 
+  "token": "ga"
+}
