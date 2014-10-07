@@ -1,16 +1,15 @@
 {
   "data-set": {
-    "data-group": "blood-donor-appointments", 
+    "data-group": "police-uk-postcode-search", 
     "data-type": "browser-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
     "dimensions": [
-      "browser",
-      "browserVersion"
+      "browser"
     ], 
-    "id": "ga:77430707", 
+    "id": "ga:77366053", 
     "metrics": [
       "sessions"
     ],
