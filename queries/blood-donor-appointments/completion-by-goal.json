@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "blood-donor-appointments", 
+    "data-type": "completion-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:77430707",
+    "dimensions": [
+      "deviceCategory"
+    ],
+    "metrics": [
+      "ga:sessions",
+      "ga:goal1Completions",
+      "ga:goal1ConversionRate",
+      "ga:goal2Starts",
+      "ga:goal2Completions",
+      "ga:goal2ConversionRate",
+      "ga:goal3Starts",
+      "ga:goal3Completions",
+      "ga:goal3ConversionRate"
+    ]
+  }, 
+  "token": "ga"
+}

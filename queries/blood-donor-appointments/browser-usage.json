@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "blood-donor-appointments", 
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser"
+    ], 
+    "id": "ga:77430707", 
+    "metrics": [
+      "sessions"
+    ]
+  }, 
+  "token": "ga"
+}
