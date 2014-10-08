@@ -11,15 +11,15 @@
       "deviceCategory"
     ],
     "metrics": [
-      "ga:sessions",
-      "ga:goal1Completions",
-      "ga:goal1ConversionRate",
-      "ga:goal2Starts",
-      "ga:goal2Completions",
-      "ga:goal2ConversionRate",
-      "ga:goal3Starts",
-      "ga:goal3Completions",
-      "ga:goal3ConversionRate"
+      "sessions",
+      "goal1Completions",
+      "goal1ConversionRate",
+      "goal2Starts",
+      "goal2Completions",
+      "goal2ConversionRate",
+      "goal3Starts",
+      "goal3Completions",
+      "goal3ConversionRate"
     ]
   }, 
   "token": "ga"
