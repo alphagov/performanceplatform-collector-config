@@ -12,6 +12,9 @@
     "id": "ga:77430707", 
     "metrics": [
       "sessions"
+    ],
+    "sort": [
+      "-sessions"
     ]
   }, 
   "token": "ga"
