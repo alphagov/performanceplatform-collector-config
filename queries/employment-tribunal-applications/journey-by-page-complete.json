@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "journey-by-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|employment-tribunal-applications",
+      "eventAction": "complete",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "sessions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:73528959", 
+    "metrics": [
+      "sessions"
+    ],
+    "filters": "ga:pagePath=~^*-Finish claim-*"
+  }, 
+  "token": "ga"
+}
