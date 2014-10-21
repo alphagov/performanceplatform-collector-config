@@ -12,7 +12,7 @@
       "eventDetail": "profile"
     },
     "mappings": {
-      "sessions": "count"
+      "goal3Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
