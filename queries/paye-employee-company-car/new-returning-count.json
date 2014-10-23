@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "paye-employee-company-car", 
+    "data-type": "new-returning-count"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:84353061",
+    "dimensions": [
+      "userType"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}
