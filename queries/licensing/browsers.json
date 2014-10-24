@@ -1,0 +1,20 @@
+{
+  "data-set": {
+    "data-group": "licensing",
+    "data-type": "browsers"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ],
+    "filters": "ga:pagePath=~/apply-for-a-licence",
+    "ids": "ga:84779739",
+    "metrics": [
+      "visitors"
+    ]
+  },
+  "token": "ga"
+}
