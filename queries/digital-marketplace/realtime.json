@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "digital-marketplace",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:92848134",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}

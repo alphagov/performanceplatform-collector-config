@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "digital-marketplace",
+    "data-type": "monitoring"
+  },
+  "entrypoint": "performanceplatform.collector.pingdom",
+  "options": {},
+  "query": {
+    "name": "digital_marketplace"
+  },
+  "token": "pingdom"
+}
