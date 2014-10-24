@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "blood-donor-appointments", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|blood-donation-appointments",
+      "eventAction": "registration-completion",
+      "eventType": "stage",
+      "eventDetail": "profile"
+    },
+    "mappings": {
+      "goal3Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:77430707", 
+    "metrics": [
+      "goal3Completions"
+    ]
+  }, 
+  "token": "ga"
+}
