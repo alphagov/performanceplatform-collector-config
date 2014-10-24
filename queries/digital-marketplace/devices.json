@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "digital-marketplace",
+    "data-type": "devices"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ],
+    "id": "ga:92848134",
+    "metrics": [
+      "visitors"
+    ]
+  },
+  "token": "ga"
+}
