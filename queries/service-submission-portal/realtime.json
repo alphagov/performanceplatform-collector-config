@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "service-submission-portal",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:91499372",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}
