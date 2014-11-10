@@ -17,7 +17,7 @@
       "eventLabel"
     ], 
     "filters": [
-      "eventCategory==stageprompt.lpa;ga:eventLabel!~^user/forgotpw/email/.*$;ga:eventLabel!~^activate/.*$"
+      "eventCategory==stageprompt.lpa;ga:eventLabel!~^user/forgotpw/email/.*$;ga:eventLabel!~^activate/.*$;ga:eventLabel=~^(create|user|register)/.*$"
     ], 
     "id": "ga:74575786", 
     "metrics": [
