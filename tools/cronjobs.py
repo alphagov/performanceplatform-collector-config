@@ -9,6 +9,18 @@ entrypoint_information = {
         'credentials': 'credentials/ga.json',
         'repeat': 'daily',
     },
+    'performanceplatform.collector.webtrends.reports': {
+        'credentials': {
+            u'national-apprenticeship-scheme': 'credentials/'
+            'webtrends_national_apprenticeship_scheme.json'},
+        'repeat': 'daily',
+    },
+    'performanceplatform.collector.webtrends.keymetrics': {
+        'credentials': {
+            u'national-apprenticeship-scheme': 'credentials/'
+            'webtrends_national_apprenticeship_scheme.json'},
+        'repeat': 'hourly',
+    },
     'performanceplatform.collector.ga.trending': {
         'credentials': 'credentials/ga.json',
         'repeat': 'daily',
@@ -36,7 +48,9 @@ def daily(jobs):
     entries = ['#', '# Daily jobs', '#', '']
     for index, (query, credentials, token) in enumerate(jobs):
         hour, minute = divmod(index, 60)
-        entries.append('{0} {1} * * *,{2},{3},{4},performanceplatform.json'.format(minute, hour, query, credentials, token))
+        entries.append(
+            '{0} {1} * * *,{2},{3},{4},performanceplatform.json'
+            .format(minute, hour, query, credentials, token))
     return entries
 
 
@@ -44,21 +58,26 @@ def hourly(jobs):
     entries = ['#', '# Hourly jobs', '#', '']
     for index, (query, credentials, token) in enumerate(jobs):
         minute = index % 60
-        entries.append('{0} * * * *,{1},{2},{3},performanceplatform.json'.format(minute, query, credentials, token))
+        entries.append(
+            '{0} * * * *,{1},{2},{3},performanceplatform.json'
+            .format(minute, query, credentials, token))
     return entries
 
 
 def two_minute(jobs):
     entries = ['#', '# Run every two minutes', '#', '']
     for index, (query, credentials, token) in enumerate(jobs):
-        entries.append('1-59/2 * * * *,{0},{1},{2},performanceplatform.json'.format(query, credentials, token))
+        entries.append(
+            '1-59/2 * * * *,{0},{1},{2},performanceplatform.json'
+            .format(query, credentials, token))
     return entries
 
 
 def setup_time_data_set(
         query_info,
         query,
-        token_file):
+        token_file,
+        data_group):
 
     """Using default repeat
     >>> token_file = 'abc.txt'
@@ -67,12 +86,21 @@ def setup_time_data_set(
     ... 'credentials': 'credentials/ga.json',
     ... 'repeat': 'daily',
     ... }
-    >>> setup_time_data_set(query_info, query, token_file)
+    >>> setup_time_data_set(query_info, query, token_file, None)
+    ({'some': 'query'}, 'credentials/ga.json', 'abc.txt')
+    >>> query_info = {
+    ... 'credentials': {'nas':'credentials/ga.json'},
+    ... 'repeat': 'daily',
+    ... }
+    >>> setup_time_data_set(query_info, query, token_file, 'nas')
     ({'some': 'query'}, 'credentials/ga.json', 'abc.txt')
 
     """
+    credentials_file = query_info['credentials']
+    if type(credentials_file) == dict:
+        credentials_file = credentials_file[data_group]
 
-    return (query, query_info['credentials'], token_file)
+    return (query, credentials_file, token_file)
 
 
 def setup_time_data_sets(queries, entrypoint_information):
@@ -83,7 +111,7 @@ def setup_time_data_sets(queries, entrypoint_information):
     ...     'repeat': 'daily'
     ...   }
     ... }
-    >>> queries = ['queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json']
+    >>> queries = ['queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json']  # noqa
     >>> setup_time_data_sets(queries, entrypoint_information)
     {'daily': [('queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json', 'credentials/ga.json', 'tokens/pingdom.json')]}
     >>> entrypoint_information = {
@@ -109,7 +137,8 @@ def setup_time_data_sets(queries, entrypoint_information):
         query_info = entrypoint_information.get(entrypoint, None)
 
         if query_info is None:
-            raise ValueError("No entrypoint {0} from {1}".format(entrypoint, query))
+            raise ValueError(
+                "No entrypoint {0} from {1}".format(entrypoint, query))
 
         repeat = query_json.get('repeat', query_info['repeat'])
 
@@ -119,14 +148,18 @@ def setup_time_data_sets(queries, entrypoint_information):
         time_data_sets[repeat].append(setup_time_data_set(
             query_info,
             query,
-            token_file))
+            token_file,
+            query_json['data-set']['data-group']))
 
     return time_data_sets
 
 
 def main():
     try:
-        queries = [os.path.join(dp, f) for dp, dn, filenames in os.walk('queries') for f in filenames if os.path.splitext(f)[1] == '.json']
+        queries = [
+            os.path.join(dp, f) for dp, dn, filenames
+            in os.walk('queries') for f in filenames
+            if os.path.splitext(f)[1] == '.json']
         time_data_sets = setup_time_data_sets(queries, entrypoint_information)
 
         daily_jobs = daily(time_data_sets['daily'])
@@ -138,7 +171,12 @@ def main():
             '#',
             '# This file was generated by cronjobs.py',
             '#',
-        ] + spacer + daily_jobs + spacer + hourly_jobs + spacer + two_minute_jobs
+        ] + spacer + \
+            daily_jobs + \
+            spacer + \
+            hourly_jobs + \
+            spacer + \
+            two_minute_jobs
 
         print('\n'.join(cronjobs_content))
     except ValueError as e:
