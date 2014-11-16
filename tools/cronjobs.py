@@ -11,13 +11,13 @@ entrypoint_information = {
     },
     'performanceplatform.collector.webtrends.reports': {
         'credentials': {
-            u'national-apprenticeship-scheme': 'credentials/'
+            u'nas-applications': 'credentials/'
             'webtrends_national_apprenticeship_scheme.json'},
         'repeat': 'daily',
     },
     'performanceplatform.collector.webtrends.keymetrics': {
         'credentials': {
-            u'national-apprenticeship-scheme': 'credentials/'
+            u'nas-applications': 'credentials/'
             'webtrends_national_apprenticeship_scheme.json'},
         'repeat': 'hourly',
     },

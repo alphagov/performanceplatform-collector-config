@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "nas-applications",
+    "data-type": "journey"
+  },
+  "entrypoint": "performanceplatform.collector.webtrends.reports",
+  "query": {
+    "report_id": "VMp5HN9Ywb7"
+  },
+  "options": {
+    "additionalFields": {
+      "timeSpan": "day",
+      "eventCategory": "pp|nas-applications",
+      "eventType": "stage",
+      "eventDetail": "profile"
+    },
+    "row_type_name": "eventAction",
+    "mappings": {
+      "Visits": "count"
+    },
+    "idMapping": ["dataType","_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  },
+  "token": "webtrends"
+}
