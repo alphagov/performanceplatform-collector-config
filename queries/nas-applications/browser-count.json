@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "nas-applications",
+    "data-type": "browser-count"
+  },
+  "entrypoint": "performanceplatform.collector.webtrends.reports",
+  "query": {
+    "report_id": "aK4SbIcXwb7"
+  },
+  "options": {
+    "additionalFields": {
+      "timeSpan": "day"
+    },
+    "row_type_name": "browser",
+    "mappings": {
+      "Visits": "sessions"
+    },
+    "idMapping": ["dataType","_timestamp", "timeSpan", "browser"]
+  },
+  "token": "webtrends"
+}

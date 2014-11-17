@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "nas-applications",
+    "data-type": "site-use"
+  },
+  "entrypoint": "performanceplatform.collector.webtrends.keymetrics",
+  "query": {
+  },
+  "options": {
+    "additionalFields": {
+    },
+    "row_type_name": "",
+    "mappings": {
+      "Page Views": "page_views",
+      "Visits": "sessions",
+      "Visitors": "users",
+      "Bounce Rate": "bounce_rate",
+      "Avg. Time on Site": "avg_session_duration",
+      "Avg. Visitors per Day": "avg_visitors_per_day",
+      "Page Views per Visit": "page_views_per_session",
+      "New Visitors": "new_users"
+    },
+    "idMapping": ["dataType", "_timestamp"]
+  },
+  "token": "webtrends"
+}
