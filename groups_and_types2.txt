@@ -1,0 +1,88 @@
+{u'data-group': u'accelerated-possession-eviction', u'data-type': u'journey'}
+skipping queries/accelerated-possession-eviction/journey-starts.json
+{u'data-group': u'blood-donor-appointments', u'data-type': u'browser-usage'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'completion-by-goal'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'conversions-by-keyword'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'conversions-by-landing-page'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'conversions-by-medium'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'conversions-by-social-network'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'conversions-by-source'}
+{u'data-group': u'blood-donor-appointments', u'data-type': u'device-usage'}
+skipping queries/blood-donor-appointments/journey-by-goal-booking-completion.json
+skipping queries/blood-donor-appointments/journey-by-goal-booking-start.json
+skipping queries/blood-donor-appointments/journey-by-goal-registration-completion.json
+skipping queries/blood-donor-appointments/journey-by-goal-registration-start.json
+skipping queries/blood-donor-appointments/journey-by-goal-session-finder.json
+skipping queries/blood-donor-appointments/journey-by-goal-site-starts.json
+{u'data-group': u'blood-donor-appointments', u'data-type': u'new-returning-count'}
+{u'data-group': u'carers-allowance', u'data-type': u'journey'}
+{u'data-group': u'carers-allowance', u'data-type': u'organic-rate'}
+{u'data-group': u'carers-allowance', u'data-type': u'referrers-rate'}
+{u'data-group': u'carers-allowance', u'data-type': u'social-rate'}
+{u'data-group': u'carers-allowance', u'data-type': u'time-taken-to-complete'}
+{u'data-group': u'digital-marketplace', u'data-type': u'browsers'}
+{u'data-group': u'digital-marketplace', u'data-type': u'devices'}
+{u'data-group': u'digital-marketplace', u'data-type': u'traffic-count'}
+{u'data-group': u'driving-test-practical-public', u'data-type': u'device-usage'}
+{u'data-group': u'driving-test-practical-public', u'data-type': u'journey-help'}
+{u'data-group': u'driving-test-practical-public', u'data-type': u'journey'}
+{u'data-group': u'employment-tribunal-applications', u'data-type': u'browser-usage'}
+{u'data-group': u'employment-tribunal-applications', u'data-type': u'device-usage'}
+skipping queries/employment-tribunal-applications/journey-by-page-complete.json
+skipping queries/employment-tribunal-applications/journey-by-page-eligibility.json
+skipping queries/employment-tribunal-applications/journey-by-page-start.json
+{u'data-group': u'employment-tribunal-applications', u'data-type': u'new-returning-count'}
+{u'data-group': u'govuk', u'data-type': u'browsers'}
+{u'data-group': u'govuk', u'data-type': u'devices'}
+skipping queries/govuk/most_viewed.json
+skipping queries/govuk/most_viewed_news.json
+skipping queries/govuk/most_viewed_policies.json
+{u'data-group': u'govuk', u'data-type': u'visitors'}
+{u'data-group': u'govuk-info', u'data-type': u'page-statistics'}
+{u'data-group': u'govuk-info', u'data-type': u'search-terms'}
+{u'data-group': u'insidegov', u'data-type': u'visitors'}
+{u'data-group': u'lasting-power-of-attorney', u'data-type': u'journey'}
+{u'data-group': u'legal-aid-civil-claims', u'data-type': u'browser-usage'}
+{u'data-group': u'legal-aid-civil-claims', u'data-type': u'device-usage'}
+{u'data-group': u'licensing', u'data-type': u'browsers'}
+{u'data-group': u'licensing', u'data-type': u'devices'}
+{u'data-group': u'licensing', u'data-type': u'journey'}
+{u'data-group': u'pay-foreign-marriage-certificates', u'data-type': u'journey'}
+{u'data-group': u'pay-legalisation-drop-off', u'data-type': u'journey'}
+{u'data-group': u'pay-legalisation-post', u'data-type': u'journey'}
+{u'data-group': u'pay-register-birth-abroad', u'data-type': u'journey'}
+{u'data-group': u'pay-register-death-abroad', u'data-type': u'journey'}
+{u'data-group': u'paye-employee-company-car', u'data-type': u'browser-usage'}
+{u'data-group': u'paye-employee-company-car', u'data-type': u'device-usage'}
+{u'data-group': u'paye-employee-company-car', u'data-type': u'new-returning-count'}
+{u'data-group': u'performance-platform', u'data-type': u'browsers'}
+{u'data-group': u'performance-platform', u'data-type': u'devices'}
+{u'data-group': u'performance-platform', u'data-type': u'traffic-count'}
+{u'data-group': u'police-uk-postcode-search', u'data-type': u'browser-usage'}
+{u'data-group': u'police-uk-postcode-search', u'data-type': u'device-usage'}
+{u'data-group': u'police-uk-postcode-search', u'data-type': u'new-returning-count'}
+{u'data-group': u'prison-visits', u'data-type': u'device-usage'}
+{u'data-group': u'prison-visits', u'data-type': u'journey'}
+{u'data-group': u'renewtaxcredits', u'data-type': u'device-usage'}
+{u'data-group': u'renewtaxcredits', u'data-type': u'journey'}
+{u'data-group': u'service-submission-portal', u'data-type': u'browsers'}
+{u'data-group': u'service-submission-portal', u'data-type': u'devices'}
+{u'data-group': u'service-submission-portal', u'data-type': u'traffic-count'}
+{u'data-group': u'student-finance', u'data-type': u'browser-usage'}
+{u'data-group': u'student-finance', u'data-type': u'device-usage'}
+{u'data-group': u'student-finance', u'data-type': u'journey'}
+{u'data-group': u'student-finance', u'data-type': u'new-returning-users'}
+{u'data-group': u'student-finance', u'data-type': u'site-traffic'}
+skipping queries/tax-vat-content/devices-count.json
+skipping queries/tax-vat-content/new-returning-count.json
+skipping queries/tax-vat-content/organic-rate.json
+skipping queries/tax-vat-content/pageviews-count.json
+skipping queries/tax-vat-content/referrers-rate.json
+skipping queries/tax-vat-content/social-rate.json
+skipping queries/tax-vat-content/top-count.json
+skipping queries/tax-vat-content/traffic-count.json
+{u'data-group': u'tier-2-visit-visa', u'data-type': u'devices'}
+{u'data-group': u'tier-2-visit-visa', u'data-type': u'journey'}
+{u'data-group': u'tier-2-visit-visa', u'data-type': u'volumetrics'}
+{u'data-group': u'view-driving-record', u'data-type': u'devices'}
+{u'data-group': u'view-driving-record', u'data-type': u'digital-transactions'}
