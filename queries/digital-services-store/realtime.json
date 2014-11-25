@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "digital-service-store",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:45708254",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}

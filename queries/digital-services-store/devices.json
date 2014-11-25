@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "digital-service-store",
+    "data-type": "devices"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ],
+    "id": "ga:45708254",
+    "metrics": [
+      "visitors"
+    ]
+  },
+  "token": "ga"
+}
