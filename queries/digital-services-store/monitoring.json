@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "digital-service-store",
+    "data-type": "monitoring"
+  },
+  "entrypoint": "performanceplatform.collector.pingdom",
+  "options": {},
+  "query": {
+    "name": "digital_service_store"
+  },
+  "token": "pingdom"
+}
