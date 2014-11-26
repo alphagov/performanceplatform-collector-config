@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "blood-donor-appointments", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "blood-donor-appointments"
+  }, 
+  "token": "pingdom"
+}
