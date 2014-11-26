@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "digital-service-store",
+    "data-group": "digital-services-store",
     "data-type": "devices"
   },
   "entrypoint": "performanceplatform.collector.ga",
