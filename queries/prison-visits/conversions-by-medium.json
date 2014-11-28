@@ -1,0 +1,28 @@
+{
+  "data-set": {
+    "data-group": "prison-visits",
+    "data-type": "conversions-by-medium"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:79096907",
+    "dimensions": [
+      "medium"
+    ],
+    "metrics": [
+      "sessions",
+      "users",
+      "entrances"
+    ],
+    "filters": [
+      /// not sure about this
+      "sessions>99"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 20
+  }, 
+  "token": "ga"
+}
