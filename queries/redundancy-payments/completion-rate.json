@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments",
+    "data-type": "completion-rate"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "mappings": {
+      "goal3Starts": "starts",
+      "goal3Completions": "completions"
+    }
+  },
+  "query": {
+    "dimensions": [],
+    "id": "ga:92195758",
+    "metrics": [
+      "goal3Starts",
+      "goal3Completions"
+    ]
+  },
+  "token": "ga"
+}

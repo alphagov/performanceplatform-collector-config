@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
+  "query": {
+    "ids": "ga:92195758",
+    "metrics": "ga:activeVisitors"
+  },
+  "token": "ga-realtime"
+}
