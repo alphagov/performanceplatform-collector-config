@@ -1,0 +1,17 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [],
+    "id": "ga:92195758",
+    "metrics": [
+      "visitors",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
