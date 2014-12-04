@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "registered-traveller-scheme", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "registered-traveller-scheme"
+  }, 
+  "token": "pingdom"
+}

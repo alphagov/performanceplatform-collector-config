@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "registered-traveller-scheme", 
+    "data-type": "new-returning-count"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:91790456",
+    "dimensions": [
+      "userType"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}
