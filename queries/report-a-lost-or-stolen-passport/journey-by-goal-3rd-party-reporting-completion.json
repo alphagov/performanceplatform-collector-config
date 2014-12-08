@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "report-a-lost-or-stolen-passport", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|report-a-lost-or-stolen-passport|3rd-party-reporting",
+      "eventAction": "completion",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal1Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:85671338", 
+    "metrics": [
+      "goal1Completions"
+    ]
+  }, 
+  "token": "ga"
+}

@@ -119,27 +119,35 @@
 49 1 * * *,queries/registered-traveller-scheme/new-returning-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 50 1 * * *,queries/renewtaxcredits/device-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 51 1 * * *,queries/renewtaxcredits/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-52 1 * * *,queries/service-submission-portal/browsers.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-53 1 * * *,queries/service-submission-portal/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-54 1 * * *,queries/service-submission-portal/traffic-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-55 1 * * *,queries/student-finance/browser-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-56 1 * * *,queries/student-finance/device-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-57 1 * * *,queries/student-finance/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-58 1 * * *,queries/student-finance/new-returning-users.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-59 1 * * *,queries/student-finance/site-traffic.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-0 2 * * *,queries/tax-vat-content/devices-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-1 2 * * *,queries/tax-vat-content/new-returning-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-2 2 * * *,queries/tax-vat-content/organic-rate.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-3 2 * * *,queries/tax-vat-content/pageviews-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-4 2 * * *,queries/tax-vat-content/referrers-rate.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-5 2 * * *,queries/tax-vat-content/social-rate.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-6 2 * * *,queries/tax-vat-content/top-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-7 2 * * *,queries/tax-vat-content/traffic-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
-8 2 * * *,queries/tier-2-visit-visa/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-9 2 * * *,queries/tier-2-visit-visa/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-10 2 * * *,queries/tier-2-visit-visa/volumetrics.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-11 2 * * *,queries/view-driving-record/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-12 2 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+52 1 * * *,queries/report-a-lost-or-stolen-passport/browser-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+53 1 * * *,queries/report-a-lost-or-stolen-passport/device-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+54 1 * * *,queries/report-a-lost-or-stolen-passport/journey-by-goal-3rd-party-reporting-completion.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+55 1 * * *,queries/report-a-lost-or-stolen-passport/journey-by-goal-3rd-party-reporting-start.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+56 1 * * *,queries/report-a-lost-or-stolen-passport/journey-by-goal-self-reporting-completion.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+57 1 * * *,queries/report-a-lost-or-stolen-passport/journey-by-goal-self-reporting-start.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+58 1 * * *,queries/report-a-lost-or-stolen-passport/new-returning-users.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+59 1 * * *,queries/report-a-lost-or-stolen-passport/time-taken-to-complete.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+0 2 * * *,queries/service-submission-portal/browsers.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+1 2 * * *,queries/service-submission-portal/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+2 2 * * *,queries/service-submission-portal/traffic-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+3 2 * * *,queries/student-finance/browser-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+4 2 * * *,queries/student-finance/device-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+5 2 * * *,queries/student-finance/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+6 2 * * *,queries/student-finance/new-returning-users.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+7 2 * * *,queries/student-finance/site-traffic.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+8 2 * * *,queries/tax-vat-content/devices-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+9 2 * * *,queries/tax-vat-content/new-returning-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+10 2 * * *,queries/tax-vat-content/organic-rate.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+11 2 * * *,queries/tax-vat-content/pageviews-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+12 2 * * *,queries/tax-vat-content/referrers-rate.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+13 2 * * *,queries/tax-vat-content/social-rate.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+14 2 * * *,queries/tax-vat-content/top-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+15 2 * * *,queries/tax-vat-content/traffic-count.json,credentials/ga.json,tokens/ga-content.json,performanceplatform.json
+16 2 * * *,queries/tier-2-visit-visa/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+17 2 * * *,queries/tier-2-visit-visa/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+18 2 * * *,queries/tier-2-visit-visa/volumetrics.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+19 2 * * *,queries/view-driving-record/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+20 2 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 
 
 #
@@ -170,13 +178,14 @@
 21 * * * *,queries/prison-visits/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 22 * * * *,queries/register-to-vote/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 23 * * * *,queries/registered-traveller-scheme/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-24 * * * *,queries/solihull-local-authority/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-25 * * * *,queries/sorn/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-26 * * * *,queries/student-finance/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-27 * * * *,queries/tax-disc/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-28 * * * *,queries/tier-2-visit-visa/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-29 * * * *,queries/view-driving-record/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
-30 * * * *,queries/waste-carriers-registration/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+24 * * * *,queries/report-a-lost-or-stolen-passport/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+25 * * * *,queries/solihull-local-authority/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+26 * * * *,queries/sorn/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+27 * * * *,queries/student-finance/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+28 * * * *,queries/tax-disc/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+29 * * * *,queries/tier-2-visit-visa/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+30 * * * *,queries/view-driving-record/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
+31 * * * *,queries/waste-carriers-registration/monitoring.json,credentials/pingdom.json,tokens/pingdom.json,performanceplatform.json
 
 
 #
@@ -207,6 +216,7 @@
 1-59/2 * * * *,queries/register-to-vote/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/registered-traveller-scheme/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/renewtaxcredits/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
+1-59/2 * * * *,queries/report-a-lost-or-stolen-passport/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/service-submission-portal/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/sorn/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/tax-disc/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
