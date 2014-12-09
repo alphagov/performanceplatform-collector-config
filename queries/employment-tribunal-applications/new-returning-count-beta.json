@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "new-returning-count"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "beta"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "userType"]
+  },  
+  "query": {
+    "id": "ga:73528959",
+    "dimensions": [
+      "userType"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}

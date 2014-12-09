@@ -4,9 +4,14 @@
     "data-type": "new-returning-count"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "live"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "userType"]
+  },  
   "query": {
-    "id": "ga:73528959",
+    "id": "ga:92071051",
     "dimensions": [
       "userType"
     ],

@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "live",
+      "stage": "complete"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "stage"]
+  }, 
+  "query": {
+    "id": "ga:92071051", 
+    "metrics": [
+      "users"
+    ],
+    "filters": "ga:pagePath==/apply/confirmation"
+  }, 
+  "token": "ga"
+}
