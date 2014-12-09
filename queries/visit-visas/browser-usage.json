@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "visit-visas", 
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ], 
+    "id": "ga:92786340", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 100
+  }, 
+  "token": "ga"
+}

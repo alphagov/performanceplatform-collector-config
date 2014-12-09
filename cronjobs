@@ -155,6 +155,9 @@
 25 2 * * *,queries/tier-2-visit-visa/volumetrics.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 26 2 * * *,queries/view-driving-record/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 27 2 * * *,queries/view-driving-record/digital-transactions.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+28 2 * * *,queries/visit-visas/browser-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+29 2 * * *,queries/visit-visas/device-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+30 2 * * *,queries/visit-visas/new-returning-users.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 
 
 #
@@ -230,4 +233,5 @@
 1-59/2 * * * *,queries/tax-disc/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/tier-2-visit-visa/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/view-driving-record/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
+1-59/2 * * * *,queries/visit-visas/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/waste-carriers-registration/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
