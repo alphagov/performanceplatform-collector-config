@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance-change-of-circs", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:78606617", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance-change-of-circs", 
+    "data-type": "new-returning-users"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:78606617",
+    "dimensions": [
+      "userType"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ]
+  }, 
+  "token": "ga"
+}
