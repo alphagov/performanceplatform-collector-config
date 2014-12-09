@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "employment-tribunal-applications-live"
+  }, 
+  "token": "pingdom"
+}
