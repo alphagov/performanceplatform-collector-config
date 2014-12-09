@@ -4,7 +4,12 @@
     "data-type": "realtime"
   }, 
   "entrypoint": "performanceplatform.collector.ga.realtime", 
-  "options": {}, 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "beta"
+    },
+    "idMapping": ["_timestamp", "delivery_stage"]
+  },   
   "query": {
     "ids": "ga:73528959", 
     "metrics": "ga:activeVisitors"

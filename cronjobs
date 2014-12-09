@@ -39,7 +39,7 @@
 29 0 * * *,queries/digital-services-store/browsers.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 30 0 * * *,queries/digital-services-store/devices.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 31 0 * * *,queries/digital-services-store/traffic-count.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
-32 0 * * *,queries/driving-test-practical-public/browsers.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
+32 0 * * *,queries/driving-test-practical-public/browser-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 33 0 * * *,queries/driving-test-practical-public/device-usage.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 34 0 * * *,queries/driving-test-practical-public/journey-help.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
 35 0 * * *,queries/driving-test-practical-public/journey.json,credentials/ga.json,tokens/ga.json,performanceplatform.json
@@ -219,7 +219,8 @@
 1-59/2 * * * *,queries/digital-marketplace/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/digital-services-store/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/driving-test-practical-public/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
-1-59/2 * * * *,queries/employment-tribunal-applications/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
+1-59/2 * * * *,queries/employment-tribunal-applications/realtime-beta.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
+1-59/2 * * * *,queries/employment-tribunal-applications/realtime-live.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/government/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/licensing/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
 1-59/2 * * * *,queries/pay-foreign-marriage-certificates/realtime.json,credentials/ga.json,tokens/ga-realtime.json,performanceplatform.json
