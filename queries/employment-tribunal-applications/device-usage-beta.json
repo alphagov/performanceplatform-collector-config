@@ -4,7 +4,12 @@
     "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "beta"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "deviceCategory"]
+  }, 
   "query": {
     "dimensions": [
       "deviceCategory"

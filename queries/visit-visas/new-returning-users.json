@@ -1,17 +1,18 @@
 {
   "data-set": {
-    "data-group": "driving-test-practical-public", 
-    "data-type": "device-usage"
+    "data-group": "visit-visas", 
+    "data-type": "new-returning-users"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
+    "id": "ga:92786340",
     "dimensions": [
-      "deviceCategory"
-    ], 
-    "id": "ga:64942391", 
+      "userType"
+    ],
     "metrics": [
-      "sessions"
+      "sessions",
+      "users"
     ]
   }, 
   "token": "ga"

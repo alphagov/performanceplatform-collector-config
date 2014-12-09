@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance-change-of-circs", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "carers-allowance-change-of-circs"
+  }, 
+  "token": "pingdom"
+}

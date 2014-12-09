@@ -1,0 +1,20 @@
+{
+  "data-set": {
+    "data-group": "report-a-lost-or-stolen-passport", 
+    "data-type": "time-taken-to-complete"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+    ], 
+    "id": "ga:85671338", 
+    "metrics": [
+      "avgSessionDuration"
+    ],
+    "filters": [
+      "pagePath==/report/completed"
+    ]
+  }, 
+  "token": "ga"
+}

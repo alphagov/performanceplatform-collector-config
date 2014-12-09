@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "live"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "deviceCategory"]
+  }, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:92071051", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}

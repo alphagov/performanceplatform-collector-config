@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "beta",
+      "stage": "start"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "stage"]
+  }, 
+  "query": {
+    "id": "ga:73528959", 
+    "metrics": [
+      "users"
+    ],
+    "filters": "ga:pagePath=~^/ET1-Overview of Fees and Remissions-*"
+  }, 
+  "token": "ga"
+}

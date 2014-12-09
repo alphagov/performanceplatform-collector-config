@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "report-a-lost-or-stolen-passport", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "report-a-lost-or-stolen-passport"
+  }, 
+  "token": "pingdom"
+}

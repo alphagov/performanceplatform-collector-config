@@ -1,0 +1,18 @@
+{
+  "data-set": {
+    "data-group": "employment-tribunal-applications", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "beta"
+    },
+    "idMapping": ["_timestamp", "delivery_stage"]
+  },   
+  "query": {
+    "ids": "ga:73528959", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

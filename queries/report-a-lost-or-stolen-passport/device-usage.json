@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "driving-test-practical-public", 
+    "data-group": "report-a-lost-or-stolen-passport", 
     "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
@@ -9,9 +9,13 @@
     "dimensions": [
       "deviceCategory"
     ], 
-    "id": "ga:64942391", 
+    "id": "ga:85671338", 
     "metrics": [
-      "sessions"
+      "sessions",
+      "users"
+    ],
+    "sort": [
+      "-sessions"
     ]
   }, 
   "token": "ga"

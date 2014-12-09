@@ -4,19 +4,25 @@
     "data-type": "browser-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "additionalFields": {
+      "delivery_stage": "live"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "browser", "browserVersion"]
+  },  
   "query": {
     "dimensions": [
       "browser",
       "browserVersion"
     ], 
-    "id": "ga:73528959", 
+    "id": "ga:92071051", 
     "metrics": [
       "sessions"
     ],
     "sort": [
       "-sessions"
-    ]
+    ],
+    "maxResults": 100
   }, 
   "token": "ga"
 }

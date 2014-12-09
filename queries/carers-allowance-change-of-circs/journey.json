@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance-change-of-circs", 
+    "data-type": "journey"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "eventCategory", 
+      "eventAction", 
+      "eventLabel"
+    ], 
+    "filters": [
+      "eventCategory==carers-allowance"
+    ], 
+    "id": "ga:78606617", 
+    "metrics": [
+      "uniqueEvents",
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}

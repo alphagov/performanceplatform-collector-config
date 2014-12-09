@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "nas-applications", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "find-an-apprenticeship"
+  }, 
+  "token": "pingdom"
+}

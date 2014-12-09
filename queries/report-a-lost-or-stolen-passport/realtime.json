@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "report-a-lost-or-stolen-passport", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:85671338", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
