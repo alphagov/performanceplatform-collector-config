@@ -9,14 +9,14 @@
       "stage": "complete"
     },
     "mappings": {
-      "goal6Completions": "count"
+      "goal5Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "stage"]
   }, 
   "query": {
     "id": "ga:91790456", 
     "metrics": [
-      "goal6Completions"
+      "goal5Completions"
     ]
   }, 
   "token": "ga"
