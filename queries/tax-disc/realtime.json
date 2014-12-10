@@ -6,7 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "filters": "ga:pagePath=~^/tax-disc$", 
+    "filters": "ga:pagePath=~^/vehicle-tax$",
     "ids": "ga:84778268", 
     "metrics": "ga:activeVisitors"
   }, 
