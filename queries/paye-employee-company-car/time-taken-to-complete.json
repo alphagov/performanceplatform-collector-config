@@ -1,23 +1,20 @@
 {
   "data-set": {
     "data-group": "paye-employee-company-car", 
-    "data-type": "browser-usage"
+    "data-type": "time-taken-to-complete"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
     "dimensions": [
-      "browser",
-      "browserVersion"
     ], 
     "id": "ga:84353061", 
     "metrics": [
-      "sessions"
+      "avgSessionDuration"
     ],
-    "sort": [
-      "-sessions"
-    ],
-    "maxResults": 100
+    "filters": [
+      "pagePath==/paye/company-car/signout"
+    ]
   }, 
   "token": "ga"
 }
