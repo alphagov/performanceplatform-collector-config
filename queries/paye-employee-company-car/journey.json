@@ -1,23 +1,23 @@
 {
   "data-set": {
     "data-group": "paye-employee-company-car", 
-    "data-type": "browser-usage"
+    "data-type": "journey"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
     "dimensions": [
-      "browser",
-      "browserVersion"
+      "eventCategory", 
+      "eventAction", 
+      "eventLabel"
+    ], 
+    "filters": [
+      "eventCategory==pp|paye-for-employees|company-car"
     ], 
     "id": "ga:84353061", 
     "metrics": [
-      "sessions"
-    ],
-    "sort": [
-      "-sessions"
-    ],
-    "maxResults": 100
+      "uniqueEvents"
+    ]
   }, 
   "token": "ga"
 }
