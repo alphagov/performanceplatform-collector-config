@@ -1,0 +1,28 @@
+{
+  "data-set": {
+    "data-group": "lasting-power-of-attorney", 
+    "data-type": "gov-uk-starts-by-landing-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:53872948",
+    "dimensions": [
+      "landingPagePath"
+    ],
+    "metrics": [
+      "users",
+      "newUsers",
+      "avgSessionDuration",
+      "bounceRate"
+    ],
+    "filters": [
+       "pagePath=~^/power-of-attorney/make-lasting-power$"
+    ],
+    "sort": [
+      "-users"
+    ],
+    "maxResults": 50
+  }, 
+  "token": "ga"
+}
