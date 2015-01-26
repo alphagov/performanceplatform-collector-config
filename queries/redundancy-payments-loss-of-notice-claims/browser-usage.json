@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments-loss-of-notice-claims",
+    "data-type": "browser-usage"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ],
+    "id": "ga:88412160",
+    "metrics": [
+      "users",
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  },
+  "token": "ga"
+}
