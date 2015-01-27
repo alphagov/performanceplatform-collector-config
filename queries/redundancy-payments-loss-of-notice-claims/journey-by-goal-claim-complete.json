@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments-loss-of-notice-claims", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|redundancy-payments|loss-of-notice-claims",
+      "eventAction": "claim-complete",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal3Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:88412160", 
+    "metrics": [
+      "goal3Completions"
+    ]
+  }, 
+  "token": "ga"
+}

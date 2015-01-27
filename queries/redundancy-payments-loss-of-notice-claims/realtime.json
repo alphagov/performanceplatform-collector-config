@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments-loss-of-notice-claims", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:88412160", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
