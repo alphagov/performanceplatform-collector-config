@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "vehicle-management-trade-body-disposal", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:93138620", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
