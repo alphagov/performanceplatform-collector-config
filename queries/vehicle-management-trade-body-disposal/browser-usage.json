@@ -16,7 +16,8 @@
     ],
     "sort": [
       "-sessions"
-    ]
+    ],
+    "maxResults": 100
   }, 
   "token": "ga"
 }
