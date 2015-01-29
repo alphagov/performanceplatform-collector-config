@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "paye-employee-company-car", 
+    "data-type": "time-to-complete-by-event"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+  }, 
+  "query": {
+    "dimensions": [
+      "eventCategory", 
+      "eventAction"
+    ], 
+    "filters": "ga:eventCategory=~^pp|paye-for-employees|company-car$;ga:eventAction=~^confirmation.*,ga:eventAction=~^your-car-details$", 
+    "id": "ga:84353061", 
+    "metrics": [
+      "sessions",
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}
