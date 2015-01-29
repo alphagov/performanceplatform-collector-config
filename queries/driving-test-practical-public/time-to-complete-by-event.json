@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "driving-test-practical-public", 
+    "data-type": "time-to-complete-by-event"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+  }, 
+  "query": {
+    "dimensions": [
+      "eventCategory", 
+      "eventAction"
+    ], 
+    "filters": "ga:eventCategory=~^pp-.*;ga:eventAction=~^booking-complete$,ga:eventAction=~^confirm-changes$,ga:eventAction=~^confirm-cancellation$", 
+    "id": "ga:64942391", 
+    "metrics": [
+      "sessions",
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}
