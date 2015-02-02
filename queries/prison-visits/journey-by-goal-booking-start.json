@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "prison-visits", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|prison-visits",
+      "eventAction": "booking-start",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal1Starts": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:79096907", 
+    "metrics": [
+      "goal1Starts"
+    ]
+  }, 
+  "token": "ga"
+}
