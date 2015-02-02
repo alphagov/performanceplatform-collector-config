@@ -22,7 +22,7 @@
       "pagePath"
     ],
     "metrics": [
-      "pageViews"
+      "pageviews"
     ],
     "filters": "ga:pagePath=~^/sell-motor-trade/sell-to-the-trade-success$"
   }, 
