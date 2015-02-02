@@ -11,9 +11,6 @@
     "id": "ga:84353061", 
     "metrics": [
       "avgSessionDuration"
-    ],
-    "filters": [
-      "pagePath==/paye/company-car/signout"
     ]
   }, 
   "token": "ga"
