@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "rpa-basic-payment-scheme", 
+    "data-type": "time-on-session"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+  }, 
+  "query": {
+    "id": "ga:94891795", 
+    "metrics": [
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}

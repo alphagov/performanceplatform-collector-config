@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "rpa-basic-payment-scheme", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|rpa-basic-payment-scheme|registration",
+      "eventAction": "verify-registration-complete",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal3Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:94891795", 
+    "metrics": [
+      "goal3Completions"
+    ]
+  }, 
+  "token": "ga"
+}

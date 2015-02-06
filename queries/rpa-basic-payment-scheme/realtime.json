@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "rpa-basic-payment-scheme", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "id": "ga:94891795", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
