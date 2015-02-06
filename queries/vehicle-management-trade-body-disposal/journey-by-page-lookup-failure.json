@@ -1,0 +1,30 @@
+{
+  "data-set": {
+    "data-group": "vehicle-management-trade-body-disposal", 
+    "data-type": "journey-by-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|vehicle-management-trade-body-disposal",
+      "eventAction": "vehicle-lookup-failure",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "pageviews": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:93138620",
+    "dimensions": [
+      "pagePath"
+    ],
+    "metrics": [
+      "pageviews"
+    ],
+    "filters": "ga:pagePath=~^/sell-motor-trade/vehicle-lookup-failure$"
+  }, 
+  "token": "ga"
+}
