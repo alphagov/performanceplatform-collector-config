@@ -3,7 +3,8 @@
     "data-group": "employment-tribunal-applications", 
     "data-type": "realtime-beta"
   }, 
-  "entrypoint": "performanceplatform.collector.ga.realtime",    
+  "entrypoint": "performanceplatform.collector.ga.realtime",
+  "options": {},
   "query": {
     "ids": "ga:73528959", 
     "metrics": "ga:activeVisitors"
