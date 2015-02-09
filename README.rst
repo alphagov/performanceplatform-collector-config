@@ -14,7 +14,6 @@ Creating a new query
 
 Add a new config file in :code:`/queries`.
 
-Update the cronjobs: :code:`python tools/cronjobs.py > cronjobs`.
 
 Query Reference
 ===============
