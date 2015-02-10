@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "visit-visas-from-china", 
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ], 
+    "id": "ga:97094931", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 100
+  }, 
+  "token": "ga"
+}
