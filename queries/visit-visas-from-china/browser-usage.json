@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "visit-visas-from-china", 
+    "data-group": "visit-visa-from-china", 
     "data-type": "browser-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
