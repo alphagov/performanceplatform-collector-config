@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "visit-visa-from-china", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "visit-visas-china"
+  }, 
+  "token": "pingdom"
+}

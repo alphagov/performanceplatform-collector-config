@@ -1,0 +1,30 @@
+{
+  "data-set": {
+    "data-group": "visit-visa-from-china", 
+    "data-type": "journey-by-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|visit-visa-from-china",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "pageviews": "count",
+      "pagePath": "eventAction"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:97094931",
+    "dimensions": [
+      "pagePath"
+    ],
+    "metrics": [
+      "pageviews"
+    ],
+    "filters": "ga:pagePath=~^(Start Page)|(Completion Page)$"
+  }, 
+  "token": "ga"
+}
