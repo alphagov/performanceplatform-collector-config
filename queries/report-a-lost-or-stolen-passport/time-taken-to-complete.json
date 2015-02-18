@@ -13,7 +13,6 @@
       "avgSessionDuration"
     ],
     "filters": [
-      "pagePath==/report/completed"
     ]
   }, 
   "token": "ga"
