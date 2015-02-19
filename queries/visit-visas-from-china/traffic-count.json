@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "visit-visa-from-china",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:97094931",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
