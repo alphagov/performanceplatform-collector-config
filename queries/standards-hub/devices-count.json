@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "standards-hub",
+    "data-type": "devices"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ],
+    "filters": "ga:pagePath=~/apply-for-a-licence",
+    "ids": "ga:56023359",
+    "metrics": [
+      "visitors"
+    ]
+  },
+  "token": "ga"
+}

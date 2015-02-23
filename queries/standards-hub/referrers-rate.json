@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "standards-hub",
+    "data-type": "referrers-rate"
+  },
+  "entrypoint": "performanceplatform.collector.ga.contrib.content.table",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "sourceMedium"
+    ],
+    "filters": [
+      "sourceMedium!=(not set)"
+    ],
+    "id": "ga:56023359",
+    "maxResults": 10,
+    "metrics": [
+      "entrances",
+      "visitBounceRate"
+    ],
+    "sort": [
+      "-entrances"
+    ]
+  },
+  "token": "ga-content"
+}
