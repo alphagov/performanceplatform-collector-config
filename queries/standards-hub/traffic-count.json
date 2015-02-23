@@ -1,0 +1,17 @@
+{
+  "data-set": {
+    "data-group": "digital-services-store",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [],
+    "id": "ga:85286707",
+    "metrics": [
+      "visitors",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
