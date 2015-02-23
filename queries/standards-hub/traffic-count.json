@@ -1,13 +1,13 @@
 {
   "data-set": {
-    "data-group": "digital-services-store",
+    "data-group": "standards-hub",
     "data-type": "traffic-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
   "options": {},
   "query": {
     "dimensions": [],
-    "id": "ga:85286707",
+    "id": "ga:56023359",
     "metrics": [
       "visitors",
       "pageviews"

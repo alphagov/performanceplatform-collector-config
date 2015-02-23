@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "govuk",
+    "data-group": "standards-hub",
     "data-type": "browsers"
   },
   "entrypoint": "performanceplatform.collector.ga",

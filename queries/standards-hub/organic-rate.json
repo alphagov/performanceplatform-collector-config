@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "carers-allowance",
+    "data-group": "standards-hub",
     "data-type": "organic-rate"
   },
   "entrypoint": "performanceplatform.collector.ga",
