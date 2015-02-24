@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "make-a-plea", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:89883835", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}
