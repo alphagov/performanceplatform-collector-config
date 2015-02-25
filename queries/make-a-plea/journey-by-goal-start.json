@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "make-a-plea", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "service_identifier": "pp|make-a-plea",
+      "journey_stage": "start",
+      "event_type": "stage",
+      "event_detail": "transaction"
+    },
+    "mappings": {
+      "goal1Starts": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
+  }, 
+  "query": {
+    "id": "ga:89883835",
+    "metrics": [
+      "goal1Starts"
+    ]
+  }, 
+  "token": "ga"
+}
