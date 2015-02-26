@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "blood-donor-appointments", 
+    "data-group": "standards-hub", 
     "data-type": "new-returning-count"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
