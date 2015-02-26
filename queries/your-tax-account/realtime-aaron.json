@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "aaron-test", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:84617412", 
+    "metrics": "ga:activeVisitors",
+    "filters": "ga:pagePath==/account"
+  }, 
+  "token": "ga-realtime"
+}
