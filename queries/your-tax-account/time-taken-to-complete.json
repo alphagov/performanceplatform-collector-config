@@ -11,7 +11,8 @@
     "id": "ga:84617412", 
     "metrics": [
       "avgSessionDuration"
-    ]
+    ],
+    "filters": "ga:pagePath==/account"
   }, 
   "token": "ga"
 }
