@@ -10,7 +10,8 @@
     "metrics": [
       "users",
       "pageviews"
-    ]
+    ],
+    "filters": "ga:pagePath==/account"
   },
   "token": "ga"
 }
