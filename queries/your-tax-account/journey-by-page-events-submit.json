@@ -11,19 +11,19 @@
       "event_detail": "routing"
     },
     "mappings": {
-      "eventCategory": "journey_stage"
+      "eventLabel": "journey_stage"
     },
     "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
   }, 
   "query": {
     "id": "ga:84617412",
     "dimensions": [
-      "eventCategory"
+      "eventLabel"
     ],
     "metrics": [
       "uniqueEvents"
     ],
-    "filters": "ga:pagePath==/account;ga:eventCategory!~^footer;ga:eventCategory!~^header;ga:eventCategory!~^primary-navigation;ga:eventCategory!~^sidebar"
+    "filters": "ga:pagePath==/account;ga:eventLabel==Submit your VAT return,ga:eventLabel==Complete your Self Assessment return,ga:eventLabel==Your details"
   }, 
   "token": "ga"
 }
