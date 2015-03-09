@@ -1,25 +1,23 @@
 {
   "data-set": {
     "data-group": "standards-hub",
-    "data-type": "referrers-count"
+    "data-type": "top-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
   "options": {},
   "query": {
     "dimensions": [
-      "sourceMedium"
+      "pageTitle"
     ],
-    "filters": [
-      "sourceMedium!=(not set)"
-    ],
+    "filters": [],
     "id": "ga:56023359",
     "maxResults": 10,
     "metrics": [
-      "entrances",
-      "visitBounceRate"
+      "pageviews",
+      "uniquePageviews"
     ],
     "sort": [
-      "-entrances"
+      "-pageviews"
     ]
   },
   "token": "ga"
