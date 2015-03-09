@@ -1,18 +1,22 @@
 {
   "data-set": {
     "data-group": "employment-tribunal-applications", 
-    "data-type": "journey"
+    "data-type": "journey-test"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "delivery_stage": "beta",
-      "stage": "complete"
+      "service_identifier": "pp|employment-tribunal-applications|beta",
+      "journey_stage": "complete",
+      "event_type": "stage",
+      "event_detail": "transaction"
     },
-    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "stage"]
+    "mappings": {
+    },
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
   }, 
   "query": {
-    "id": "ga:73528959", 
+    "id": "ga:85831926", 
     "metrics": [
       "users"
     ],

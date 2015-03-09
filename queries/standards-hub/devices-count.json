@@ -1,7 +1,7 @@
 {
   "data-set": {
     "data-group": "standards-hub",
-    "data-type": "devices"
+    "data-type": "devices-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
   "options": {},
@@ -9,7 +9,7 @@
     "dimensions": [
       "deviceCategory"
     ],
-    "ids": "ga:56023359",
+    "id": "ga:56023359",
     "metrics": [
       "visitors"
     ]

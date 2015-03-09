@@ -1,0 +1,38 @@
+{
+  "data-set": {
+    "data-group": "gov-uk-content",
+    "data-type": "statistics-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga.contrib.content.table",
+  "options": {
+    "filtersets": [
+      
+      [
+        "customVarValue9=~^<EA480>"
+      ]
+    ],
+    "plugins": [
+      "Comment('department computed from filtersets by collect-content-dashboard-table.py')",
+      "ComputeRank('rank')",
+      "ComputeIdFrom('_timestamp', 'timeSpan', 'dataType', 'department', 'rank')"
+    ]
+  },
+  "query": {
+    "dimensions": [
+      "pageTitle"
+    ],
+    "filters": [
+      "pagePath=~/government/statistics.*"
+    ],
+    "id": "ga:74473500",
+    "maxResults": 10,
+    "metrics": [
+      "pageviews",
+      "uniquePageviews"
+    ],
+    "sort": [
+      "-uniquePageviews"
+    ]
+  },
+  "token": "ga-content"
+}

@@ -13,7 +13,8 @@
     "metrics": [
       "sessions",
       "users"
-    ]
+    ],
+    "filters": "ga:pagePath==/account"
   }, 
   "token": "ga"
 }

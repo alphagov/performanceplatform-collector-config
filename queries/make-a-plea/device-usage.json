@@ -1,20 +1,15 @@
 {
   "data-set": {
-    "data-group": "employment-tribunal-applications", 
+    "data-group": "make-a-plea", 
     "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {
-    "additionalFields": {
-      "delivery_stage": "beta"
-    },
-    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "deviceCategory"]
-  }, 
+  "options": {}, 
   "query": {
     "dimensions": [
       "deviceCategory"
     ], 
-    "id": "ga:85831926", 
+    "id": "ga:89883835", 
     "metrics": [
       "sessions"
     ],

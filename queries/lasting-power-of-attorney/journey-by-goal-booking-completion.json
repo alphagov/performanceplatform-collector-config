@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "lasting-power-of-attorney", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|lasting-power-of-attorney",
+      "eventAction": "booking-completion",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal2Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:61752366", 
+    "metrics": [
+      "goal2Completions"
+    ]
+  }, 
+  "token": "ga"
+}

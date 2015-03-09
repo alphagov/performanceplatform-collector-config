@@ -8,15 +8,14 @@
     "additionalFields": {
       "service_identifier": "pp|your-tax-account",
       "journey_stage": "account",
-      "eventType": "stage",
-      "eventDetail": "routing"
+      "event_type": "stage",
+      "event_detail": "routing"
     },
-    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "eventType", "eventDetail"]
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
   }, 
   "query": {
     "id": "ga:84617412",
     "metrics": [
-      "totalEvents",
       "uniqueEvents"
     ],
     "filters": "ga:pagePath==/account"

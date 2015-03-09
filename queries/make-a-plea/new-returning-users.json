@@ -1,12 +1,12 @@
 {
   "data-set": {
-    "data-group": "standards-hub", 
-    "data-type": "new-returning-count"
+    "data-group": "make-a-plea", 
+    "data-type": "new-returning-users"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
-    "id": "ga:56023359",
+    "id": "ga:89883835",
     "dimensions": [
       "userType"
     ],

@@ -1,21 +1,16 @@
 {
   "data-set": {
-    "data-group": "employment-tribunal-applications", 
+    "data-group": "make-a-plea",
     "data-type": "browser-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {
-    "additionalFields": {
-      "delivery_stage": "beta"
-    },
-    "idMapping": ["_timestamp", "timeSpan", "delivery_stage", "browser", "browserVersion"]
-  },  
+  "options": {}, 
   "query": {
     "dimensions": [
       "browser",
       "browserVersion"
     ], 
-    "id": "ga:85831926", 
+    "id": "ga:89883835",
     "metrics": [
       "sessions"
     ],
