@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "test-piwik",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.realtime",
+  "query": {
+    "site_id": "11",
+    "api_method": "Live.getCounters",
+    "minutes": "1"
+  },
+  "options": {},
+  "token": "piwik"
+}
