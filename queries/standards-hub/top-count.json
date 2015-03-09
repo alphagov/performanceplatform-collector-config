@@ -1,17 +1,23 @@
 {
   "data-set": {
     "data-group": "standards-hub",
-    "data-type": "devices"
+    "data-type": "top-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
   "options": {},
   "query": {
     "dimensions": [
-      "deviceCategory"
+      "pageTitle"
     ],
-    "ids": "ga:56023359",
+    "filters": [],
+    "id": "ga:56023359",
+    "maxResults": 10,
     "metrics": [
-      "visitors"
+      "pageviews",
+      "uniquePageviews"
+    ],
+    "sort": [
+      "-pageviews"
     ]
   },
   "token": "ga"

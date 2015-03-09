@@ -1,9 +1,9 @@
 {
   "data-set": {
     "data-group": "standards-hub",
-    "data-type": "referrers-rate"
+    "data-type": "referrers-count"
   },
-  "entrypoint": "performanceplatform.collector.ga.contrib.content.table",
+  "entrypoint": "performanceplatform.collector.ga",
   "options": {},
   "query": {
     "dimensions": [
@@ -22,5 +22,5 @@
       "-entrances"
     ]
   },
-  "token": "ga-content"
+  "token": "ga"
 }
