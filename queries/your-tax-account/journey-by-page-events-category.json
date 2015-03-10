@@ -23,7 +23,7 @@
     "metrics": [
       "uniqueEvents"
     ],
-    "filters": "ga:pagePath==/account;ga:eventCategory!~^footer;ga:eventCategory!~^header;ga:eventCategory!~^primary-navigation;ga:eventCategory!~^sidebar"
+    "filters": "ga:pagePath==/account"
   }, 
   "token": "ga"
 }
