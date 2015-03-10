@@ -181,6 +181,7 @@ def main():
         print('\n'.join(cronjobs_content))
     except ValueError as e:
         print(e.message, file=sys.stderr)
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()
