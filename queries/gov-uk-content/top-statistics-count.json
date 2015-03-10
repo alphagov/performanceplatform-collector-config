@@ -1,7 +1,7 @@
 {
   "data-set": {
     "data-group": "gov-uk-content",
-    "data-type": "statistics-count"
+    "data-type": "top-statistics-count"
   },
   "entrypoint": "performanceplatform.collector.ga.contrib.content.table",
   "options": {
