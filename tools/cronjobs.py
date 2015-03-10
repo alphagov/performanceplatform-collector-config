@@ -38,7 +38,7 @@ entrypoint_information = {
         'repeat': 'hourly',
     },
     'performanceplatform.collector.piwik.core': {
-        'credentials': 'credentials/piwik-fco-test.json',
+        'credentials': 'credentials/piwik_fco.json',
         'repeat': 'daily',
     },
     'performanceplatform.collector.gcloud': {
