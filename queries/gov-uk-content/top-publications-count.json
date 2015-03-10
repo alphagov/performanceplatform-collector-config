@@ -64,30 +64,6 @@
         "customVarValue9=~^<D19>"
       ],
       [
-        "customVarValue9=~^<D23>"
-      ],
-      [
-        "customVarValue9=~^<D24>"
-      ],
-      [
-        "customVarValue9=~^<D25>"
-      ],
-      [
-        "customVarValue9=~^<EA74>"
-      ],
-      [
-        "customVarValue9=~^<EA75>"
-      ],
-      [
-        "customVarValue9=~^<EA79>"
-      ],
-      [
-        "customVarValue9=~^<OT532>"
-      ],
-      [
-        "customVarValue9=~^<OT537>"
-      ],
-      [
         "customVarValue9=~^<D20>"
       ],
       [
@@ -97,31 +73,55 @@
         "customVarValue9=~^<D22>"
       ],
       [
-        "customVarValue9=~^<D241>"
+        "customVarValue9=~^<D23>"
       ],
       [
-        "customVarValue9=~^<D117>"
+        "customVarValue9=~^<D24>"
       ],
       [
-        "customVarValue9=~^<EA199>"
+        "customVarValue9=~^<D25>"
       ],
       [
         "customVarValue9=~^<D98>"
       ],
       [
-        "customVarValue9=~^<EA321>"
+        "customVarValue9=~^<D117>"
       ],
       [
-        "customVarValue9=~^<OT554>"
+        "customVarValue9=~^<D241>"
       ],
       [
-        "customVarValue9=~^<EA570>"
+        "customVarValue9=~^<EA74>"
+      ],
+      [
+        "customVarValue9=~^<EA75>"
       ],
       [
         "customVarValue9=~^<EA78>"
       ],
       [
+        "customVarValue9=~^<EA79>"
+      ],
+      [
+        "customVarValue9=~^<EA199>"
+      ],
+      [
+        "customVarValue9=~^<EA321>"
+      ],
+      [
         "customVarValue9=~^<EA480>"
+      ],
+      [
+        "customVarValue9=~^<EA570>"
+      ],
+      [
+        "customVarValue9=~^<OT532>"
+      ],
+      [
+        "customVarValue9=~^<OT537>"
+      ],
+      [
+        "customVarValue9=~^<OT554>"
       ]
     ],
     "plugins": [
