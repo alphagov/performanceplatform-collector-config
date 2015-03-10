@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "test-piwik",
+    "data-type": "new-returning"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.core",
+  "query": {
+    "site_id": "11",
+    "api_method": "VisitFrequency.get",
+    "frequency":"weekly"
+  },
+  "options": {
+    "mappings": {
+      "label": "new-returning",
+      "nb_visits": "sessions"
+    },
+    "idMapping": ["dataType","_timestamp","timeSpan","new-returning"]
+
+    },
+  "token": "piwik-fco-test"
+}
