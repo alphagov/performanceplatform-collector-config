@@ -1,0 +1,29 @@
+{
+  "data-set": {
+    "data-group": "your-tax-account", 
+    "data-type": "journey-by-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "service_identifier": "pp|your-tax-account",
+      "event_type": "stage",
+      "event_detail": "routing"
+    },
+    "mappings": {
+      "eventLabel": "journey_stage"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
+  }, 
+  "query": {
+    "id": "ga:84617412",
+    "dimensions": [
+      "eventLabel"
+    ],
+    "metrics": [
+      "uniqueEvents"
+    ],
+    "filters": "ga:pagePath==/account"
+  }, 
+  "token": "ga"
+}
