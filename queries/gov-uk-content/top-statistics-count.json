@@ -6,9 +6,11 @@
   "entrypoint": "performanceplatform.collector.ga.contrib.content.table",
   "options": {
     "filtersets": [
-      
       [
         "customVarValue9=~^<EA480>"
+      ],
+      [
+        "customVarValue9=~^<PB509>"
       ]
     ],
     "plugins": [
