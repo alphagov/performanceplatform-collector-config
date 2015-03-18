@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "test-piwik",
+    "data-type": "browser-count"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.core",
+  "query": {
+    "site_id": "11",
+    "api_method": "Goals.get",
+    "api_method_arguments": {
+       "idGoal": "1"
+    },
+    "frequency":"weekly"
+  },
+  "options": {
+    "mappings": {
+      "label": "browser",
+      "nb_visits": "sessions"
+    },
+    "idMapping": ["dataType","_timestamp","timeSpan","browser"]
+
+    },
+  "token": "piwik-fco-test"
+}
