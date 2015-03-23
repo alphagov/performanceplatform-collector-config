@@ -1,7 +1,7 @@
 {
   "data-set": {
     "data-group": "test-piwik",
-    "data-type": "browser-count"
+    "data-type": "completion-by-goal"
   },
   "entrypoint": "performanceplatform.collector.piwik.core",
   "query": {
@@ -20,5 +20,5 @@
     "idMapping": ["dataType","_timestamp","timeSpan","browser"]
 
     },
-  "token": "piwik-fco-test"
+  "token": "piwik-fco"
 }
