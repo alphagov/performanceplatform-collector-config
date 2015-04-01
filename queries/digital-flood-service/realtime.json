@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "digital-flood-service", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:98908658", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
