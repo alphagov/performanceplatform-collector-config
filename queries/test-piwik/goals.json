@@ -20,5 +20,5 @@
     "idMapping": ["dataType","_timestamp","timeSpan","browser"]
 
     },
-  "token": "piwik-fco-test"
+"token": "piwik_fco"
 }
