@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "send-employment-intermediary-report", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "filters": "ga:pagePath=~/renew-patent", 
+    "ids": "ga:97716817", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
