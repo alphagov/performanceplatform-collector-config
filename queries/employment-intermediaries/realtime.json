@@ -6,7 +6,6 @@
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "filters": "ga:pagePath=~/renew-patent", 
     "ids": "ga:97716817", 
     "metrics": "ga:activeVisitors"
   }, 
