@@ -23,7 +23,7 @@
     "metrics": [
       "uniqueEvents"
     ],
-    "filters": "ga:pagePath==/account;ga:eventLabel==Submit your VAT return,ga:eventLabel==Complete your Self Assessment return,ga:eventLabel==Your details"
+    "filters": "ga:pagePath==/account"
   }, 
   "token": "ga"
 }

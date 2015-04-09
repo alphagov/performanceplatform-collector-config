@@ -9,7 +9,7 @@
     "dimensions": [
       "keyword"
     ],
-    "filters": "ga:keyword!=(not provided);ga:keyword!=(not set)",
+    "filters": "ga:keyword!=(not set)",
     "id": "ga:56023359",
     "maxResults": 10,
     "metrics": [
@@ -20,5 +20,5 @@
       "-entrances"
     ]
   },
-  "token": "ga-content"
+  "token": "ga"
 }
