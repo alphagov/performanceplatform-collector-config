@@ -16,11 +16,5 @@
     },
     "idMapping": ["dataType","_timestamp","timeSpan","new-returning"]
 
-    },
-<<<<<<< Updated upstream
-  "token": "piwik-fco-test"
-}
-=======
-  "token": "piwik_fco"
-}
->>>>>>> Stashed changes
+    },"token": "piwik_fco"
+  }
