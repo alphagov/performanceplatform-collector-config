@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "digital-flood-service",
+    "data-type": "pageviews-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "plugins": [
+      "ComputeIdFrom('_timestamp', 'timeSpan', 'dataType')"
+    ]
+  },
+  "query": {
+    "dimensions": [],
+    "id": "ga:98908658",
+    "metrics": [
+      "pageviews"
+    ],
+    "sort": []
+  },
+  "token": "ga-content"
+}
