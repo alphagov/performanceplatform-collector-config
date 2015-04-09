@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "nhs-choices", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "xxxxxxxx"
+  }, 
+  "token": "pingdom"
+}
