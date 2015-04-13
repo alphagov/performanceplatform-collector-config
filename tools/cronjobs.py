@@ -37,6 +37,14 @@ entrypoint_information = {
         'credentials': 'credentials/pingdom.json',
         'repeat': 'hourly',
     },
+    'performanceplatform.collector.piwik.core': {
+        'credentials': 'credentials/piwik_fco.json',
+        'repeat': 'daily',
+    },
+    'performanceplatform.collector.piwik.realtime': {
+        'credentials': 'credentials/piwik_fco.json',
+        'repeat': '2minute',
+    },
     'performanceplatform.collector.gcloud': {
         'credentials': 'credentials/gcloud.json',
         'repeat': 'hourly',
@@ -181,6 +189,7 @@ def main():
         print('\n'.join(cronjobs_content))
     except ValueError as e:
         print(e.message, file=sys.stderr)
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()

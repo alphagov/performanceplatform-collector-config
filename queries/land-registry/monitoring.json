@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "land-registry", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "land-registry"
+  }, 
+  "token": "pingdom"
+}
