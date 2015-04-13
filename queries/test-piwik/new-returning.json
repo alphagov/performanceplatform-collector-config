@@ -1,7 +1,7 @@
 {
   "data-set": {
     "data-group": "test-piwik",
-    "data-type": "new-returning"
+    "data-type": "new-returning-count"
   },
   "entrypoint": "performanceplatform.collector.piwik.core",
   "query": {
