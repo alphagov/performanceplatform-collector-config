@@ -23,7 +23,7 @@
     "metrics": [
       "uniqueEvents"
     ],
-    "filters": "ga:pagePath==/account"
+    "filters": "ga:pagePath==/account;ga:eventCategory==corporation-tax,ga:eventCategory==epaye,ga:eventCategory==messages,ga:eventCategory==primary-navigation,ga:eventCategory==self-assessment,ga:eventCategory==vat"
   }, 
   "token": "ga"
 }
