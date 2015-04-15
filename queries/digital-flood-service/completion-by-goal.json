@@ -1,0 +1,19 @@
+{
+  "data-set": {
+    "data-group": "digital-flood-service", 
+    "data-type": "completion-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:98908658",
+    "metrics": [
+      "goal1ConversionRate",
+      "goal2ConversionRate",
+      "goal3ConversionRate",
+      "goal4ConversionRate",
+      "goal5ConversionRate"
+    ]
+  }, 
+  "token": "ga"
+}
