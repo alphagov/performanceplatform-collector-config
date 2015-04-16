@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "send-employment-intermediary-report", 
+    "data-group": "employment-intermediary-reports", 
     "data-type": "browser-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
