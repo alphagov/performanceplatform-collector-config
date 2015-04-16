@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "redundancy-payments", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "redundancy-payments"
+  }, 
+  "token": "pingdom"
+}
