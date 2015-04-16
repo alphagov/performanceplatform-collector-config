@@ -1,7 +1,7 @@
 {
   "data-set": {
-    "data-group": "send-employment-intermediary-report", 
-    "data-type": "new-returning-count"
+    "data-group": "employment-intermediary-reports", 
+    "data-type": "new-returning-users"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
