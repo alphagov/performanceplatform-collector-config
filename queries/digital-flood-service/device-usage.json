@@ -1,7 +1,7 @@
 {
   "data-set": {
-    "data-group": "paye-employee-company-car", 
-    "data-type": "device-usage"
+    "data-group": "digital-flood-service", 
+    "data-type": "devices"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
@@ -9,7 +9,7 @@
     "dimensions": [
       "deviceCategory"
     ], 
-    "id": "ga:84353061", 
+    "id": "ga:98908658", 
     "metrics": [
       "sessions"
     ],

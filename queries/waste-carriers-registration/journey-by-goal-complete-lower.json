@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "waste-carrier-or-broker-registration", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|waste-carrier-or-broker-registration|lower",
+      "eventAction": "lower-complete",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal1Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:99138891", 
+    "metrics": [
+      "goal1Completions"
+    ]
+  }, 
+  "token": "ga"
+}

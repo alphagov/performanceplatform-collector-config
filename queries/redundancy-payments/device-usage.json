@@ -1,23 +1,22 @@
 {
   "data-set": {
-    "data-group": "paye-employee-company-car", 
-    "data-type": "browser-usage"
+    "data-group": "redundancy-payments", 
+    "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
     "dimensions": [
-      "browser",
-      "browserVersion"
+      "deviceCategory"
     ], 
-    "id": "ga:84353061", 
+    "id": "ga:92195758", 
     "metrics": [
-      "sessions"
+      "sessions",
+      "users"
     ],
     "sort": [
       "-sessions"
-    ],
-    "maxResults": 100
+    ]
   }, 
   "token": "ga"
 }

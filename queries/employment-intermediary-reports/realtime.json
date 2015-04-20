@@ -1,12 +1,12 @@
 {
   "data-set": {
-    "data-group": "paye-employee-company-car", 
+    "data-group": "employment-intermediary-reports", 
     "data-type": "realtime"
   }, 
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "ids": "ga:84353061", 
+    "ids": "ga:97716817", 
     "metrics": "ga:activeVisitors"
   }, 
   "token": "ga-realtime"

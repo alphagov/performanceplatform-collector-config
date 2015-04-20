@@ -1,16 +1,18 @@
 {
   "data-set": {
-    "data-group": "paye-employee-company-car", 
-    "data-type": "time-taken-to-complete"
+    "data-group": "employment-intermediary-reports", 
+    "data-type": "new-returning-users"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
+    "id": "ga:97716817",
     "dimensions": [
-    ], 
-    "id": "ga:84353061", 
+      "userType"
+    ],
     "metrics": [
-      "avgSessionDuration"
+      "sessions",
+      "users"
     ]
   }, 
   "token": "ga"

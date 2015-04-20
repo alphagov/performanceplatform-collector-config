@@ -1,12 +1,12 @@
 {
   "data-set": {
-    "data-group": "paye-employee-company-car", 
-    "data-type": "new-returning-count"
+    "data-group": "digital-flood-service", 
+    "data-type": "new-returning-users"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
-    "id": "ga:84353061",
+    "id": "ga:98908658",
     "dimensions": [
       "userType"
     ],
