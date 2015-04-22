@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "view-driving-record", 
+    "data-type": "user-code-volumes"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "eventAction"
+    ], 
+    "id": "ga:83729847", 
+    "metrics": [
+      "uniqueEvents",
+			"totalEvents"
+    ],
+		"filters": [
+			"eventAction=~^Create a code$"
+		]
+  }, 
+  "token": "ga"
+}
