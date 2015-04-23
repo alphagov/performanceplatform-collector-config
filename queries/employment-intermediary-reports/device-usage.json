@@ -1,23 +1,24 @@
 {
   "data-set": {
     "data-group": "employment-intermediary-reports", 
-    "data-type": "browser-usage"
+    "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
     "dimensions": [
-      "browser",
-      "browserVersion"
+      "deviceCategory"
     ], 
     "id": "ga:97716817", 
     "metrics": [
-      "sessions"
+      "sessions",
+      "users"
     ],
     "sort": [
       "-sessions"
-    ],
-    "maxResults": 100
+    ]
   }, 
   "token": "ga"
 }
+
+
