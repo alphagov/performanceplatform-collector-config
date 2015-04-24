@@ -143,6 +143,10 @@ The options will be applied in order:
 
 **Notes:**
 
+**Version**
+
+The default API version used is version 2 and the collector will work with no further config for anything with 'v2_0' in the reports or keymetrics url in the credentials file. For things with 'v3' in these urls you must add "api_version": "v3" to the credentials file in order for the version 3 urls to work.
+
 **Measures**
 
 Due to the nature of reports - the fields are defined by the service pushing data - you must inspect the response to find the measures available and choose from these. e.g. for:
