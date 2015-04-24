@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "charity-recognition-hmrc",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:92760129",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
