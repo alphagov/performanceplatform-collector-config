@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "nhs-choices",
+    "data-type": "device-count"
+  },
+  "entrypoint": "performanceplatform.collector.webtrends.reports",
+  "query": {
+    "report_id": "zNVW6aIvn47"
+  },
+  "options": {
+    "additionalFields": {
+      "timeSpan": "week"
+    },
+    "row_type_name": "device",
+    "mappings": {
+      "Visits": "sessions"
+    },
+    "idMapping": ["dataType","_timestamp", "timeSpan", "device"]
+  },
+  "token": "webtrends"
+}
