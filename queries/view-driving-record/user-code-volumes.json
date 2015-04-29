@@ -12,11 +12,11 @@
     "id": "ga:83729847", 
     "metrics": [
       "uniqueEvents",
-			"totalEvents"
+      "totalEvents"
     ],
-		"filters": [
-			"eventAction=~^Create a code$"
-		]
+    "filters": [
+      "eventAction=~^Create a code$"
+    ]
   }, 
   "token": "ga"
 }
