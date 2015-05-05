@@ -7,7 +7,7 @@
   "options": {}, 
   "query": {
     "ids": "ga:96604342", 
-    "metrics": "ga:activeVisitors"
+    "metrics": "ga:activeUsers"
   }, 
   "token": "ga-realtime"
 }
