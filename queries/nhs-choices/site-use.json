@@ -3,7 +3,7 @@
     "data-group": "nhs-choices",
     "data-type": "site-use"
   },
-  "entrypoint": "performanceplatform.collector.webtrends.keymetrics",
+  "entrypoint": "performanceplatform.collector.webtrends.nhs-choices.keymetrics",
   "query": {
   },
   "options": {

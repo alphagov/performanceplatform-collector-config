@@ -9,6 +9,18 @@ entrypoint_information = {
         'credentials': 'credentials/ga.json',
         'repeat': 'daily',
     },
+    'performanceplatform.collector.webtrends.nhs-choices.reports': {
+        'credentials': {
+            u'nhs-choices': 'credentials/'
+            'webtrends_nhs_choices.json'},
+        'repeat': 'daily',
+    },
+    'performanceplatform.collector.webtrends.nhs-choices.keymetrics': {
+        'credentials': {
+            u'nhs-choices': 'credentials/'
+            'webtrends_nhs_choices.json'},
+        'repeat': 'hourly',
+    },
     'performanceplatform.collector.webtrends.reports': {
         'credentials': {
             u'nas-applications': 'credentials/'

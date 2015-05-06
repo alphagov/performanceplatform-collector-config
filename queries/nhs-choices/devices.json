@@ -3,7 +3,7 @@
     "data-group": "nhs-choices",
     "data-type": "device-count"
   },
-  "entrypoint": "performanceplatform.collector.webtrends.reports",
+  "entrypoint": "performanceplatform.collector.webtrends.nhs-choices.reports",
   "query": {
     "report_id": "zNVW6aIvn47"
   },
