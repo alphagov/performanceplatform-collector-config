@@ -1,12 +1,12 @@
 {
   "data-set": {
-    "data-group": "employment-intermediary-reports", 
+    "data-group": "send-employment-intermediary-report", 
     "data-type": "journey-by-goal"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|employment-intermediary-reports",
+      "eventCategory": "pp|send-employment-intermediary-report",
       "eventAction": "complete",
       "eventType": "stage",
       "eventDetail": "transaction"
