@@ -12,13 +12,17 @@ entrypoint_information = {
     'performanceplatform.collector.webtrends.reports': {
         'credentials': {
             u'nas-applications': 'credentials/'
-            'webtrends_national_apprenticeship_scheme.json'},
+            'webtrends_national_apprenticeship_scheme.json',
+            u'nhs-choices': 'credentials/webtrends_nhs_choices.json',
+        },
         'repeat': 'daily',
     },
     'performanceplatform.collector.webtrends.keymetrics': {
         'credentials': {
             u'nas-applications': 'credentials/'
-            'webtrends_national_apprenticeship_scheme.json'},
+            'webtrends_national_apprenticeship_scheme.json',
+            u'nhs-choices': 'credentials/webtrends_nhs_choices.json',
+        },
         'repeat': 'hourly',
     },
     'performanceplatform.collector.ga.trending': {
