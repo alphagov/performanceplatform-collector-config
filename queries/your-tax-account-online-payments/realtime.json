@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "yta-online-payments", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:94136256", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
