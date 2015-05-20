@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "nhs-choices",
+    "data-type": "top-conditions"
+  },
+  "entrypoint": "performanceplatform.collector.webtrends.reports",
+  "query": {
+    "report_id": "kMKL354n7l5"
+  },
+  "options": {
+    "additionalFields": {
+      "timeSpan": "week"
+    },
+    "row_type_name": "conditions",
+    "mappings": {
+      "Visits": "sessions",
+      "Content Group": "conditions"
+    },
+    "idMapping": ["dataType","_timestamp", "timeSpan", "conditions"]
+  },
+  "token": "webtrends"
+}

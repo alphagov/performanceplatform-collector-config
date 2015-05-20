@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "consular-appointment-booking-service",
+    "data-type": "browser-usage"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.core",
+  "query": {
+    "site_id": "9",
+    "api_method": "UserSettings.getBrowserVersion",
+    "frequency":"weekly"
+  },
+  "options": {
+    "mappings": {
+      "label": "browser",
+      "nb_visits": "sessions"
+    },
+    "idMapping": ["dataType","_timestamp","timeSpan","browser"]
+
+    },
+  "token": "piwik_fco"
+}

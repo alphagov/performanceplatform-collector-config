@@ -1,0 +1,14 @@
+{
+  "data-set": {
+    "data-group": "consular-appointment-booking-service",
+    "data-type": "realtime"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.realtime",
+  "query": {
+    "site_id": "9",
+    "api_method": "Live.getCounters",
+    "minutes": "1"
+  },
+  "options": {},
+  "token": "piwik_fco"
+}
