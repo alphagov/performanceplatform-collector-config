@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "retain-personalised-registration", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|retain-personalised-registration",
+      "eventAction": "complete",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal1Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:96551074", 
+    "metrics": [
+      "goal8Completions"
+    ]
+  }, 
+  "token": "ga"
+}
