@@ -12,7 +12,7 @@
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal1Completions": "count"
+      "goal8Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
