@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "renewtaxcredits", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|renewtaxcredits",
+      "eventAction": "claim-start",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal4Starts": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:100989274", 
+    "metrics": [
+      "goal4Starts"
+    ]
+  }, 
+  "token": "ga"
+}
