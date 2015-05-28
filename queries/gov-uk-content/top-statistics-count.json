@@ -7,6 +7,9 @@
   "options": {
     "filtersets": [
       [
+        "customVarValue9=~^<EA34>"
+      ],
+      [
         "customVarValue9=~^<EA480>"
       ],
       [
