@@ -1,20 +1,18 @@
 {
   "data-set": {
     "data-group": "renewtaxcredits", 
-    "data-type": "device-usage"
+    "data-type": "new-returning-users"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
+    "id": "ga:100989274",
     "dimensions": [
-      "deviceCategory"
-    ], 
-    "id": "ga:100989274", 
-    "metrics": [
-      "sessions"
+      "userType"
     ],
-    "sort": [
-      "-sessions"
+    "metrics": [
+      "sessions",
+      "users"
     ]
   }, 
   "token": "ga"

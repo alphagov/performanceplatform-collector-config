@@ -1,17 +1,15 @@
 {
   "data-set": {
     "data-group": "renewtaxcredits",
-    "data-type": "journey"
+    "data-type": "traffic-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
   "options": {},
   "query": {
-    "dimensions": [
-      "pagePath"
-    ],
-    "id": "ga:84609771",
+    "id": "ga:100989274",
     "metrics": [
-      "uniquePageviews"
+      "users",
+      "pageviews"
     ]
   },
   "token": "ga"
