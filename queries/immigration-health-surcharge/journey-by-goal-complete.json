@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "immigration-health-surcharge", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|immigration-health-surcharge",
+      "eventAction": "complete",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal5Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:100268363", 
+    "metrics": [
+      "goal5Completions"
+    ]
+  }, 
+  "token": "ga"
+}

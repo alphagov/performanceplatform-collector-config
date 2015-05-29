@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "immigration-health-surcharge", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:100268363", 
+    "metrics": "rt:activeUsers"
+  }, 
+  "token": "ga-realtime"
+}
