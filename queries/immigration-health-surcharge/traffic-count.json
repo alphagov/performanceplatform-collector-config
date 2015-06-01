@@ -1,0 +1,17 @@
+{
+  "data-set": {
+    "data-group": "immigration-health-surcharge",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [],
+    "id": "ga:100268363",
+    "metrics": [
+      "visitors",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
