@@ -7,130 +7,130 @@
   "options": {
     "filtersets": [
       [
-        "customVarValue9=~^<D1>"
+        "dimension9=~^<D1>"
       ],
       [
-        "customVarValue9=~^<D2>"
+        "dimension9=~^<D2>"
       ],
       [
-        "customVarValue9=~^<D3>"
+        "dimension9=~^<D3>"
       ],
       [
-        "customVarValue9=~^<D4>"
+        "dimension9=~^<D4>"
       ],
       [
-        "customVarValue9=~^<D5>"
+        "dimension9=~^<D5>"
       ],
       [
-        "customVarValue9=~^<D6>"
+        "dimension9=~^<D6>"
       ],
       [
-        "customVarValue9=~^<D7>"
+        "dimension9=~^<D7>"
       ],
       [
-        "customVarValue9=~^<D8>"
+        "dimension9=~^<D8>"
       ],
       [
-        "customVarValue9=~^<D9>"
+        "dimension9=~^<D9>"
       ],
       [
-        "customVarValue9=~^<D10>"
+        "dimension9=~^<D10>"
       ],
       [
-        "customVarValue9=~^<D11>"
+        "dimension9=~^<D11>"
       ],
       [
-        "customVarValue9=~^<D12>"
+        "dimension9=~^<D12>"
       ],
       [
-        "customVarValue9=~^<D13>"
+        "dimension9=~^<D13>"
       ],
       [
-        "customVarValue9=~^<D14>"
+        "dimension9=~^<D14>"
       ],
       [
-        "customVarValue9=~^<D15>"
+        "dimension9=~^<D15>"
       ],
       [
-        "customVarValue9=~^<D16>"
+        "dimension9=~^<D16>"
       ],
       [
-        "customVarValue9=~^<D17>"
+        "dimension9=~^<D17>"
       ],
       [
-        "customVarValue9=~^<D18>"
+        "dimension9=~^<D18>"
       ],
       [
-        "customVarValue9=~^<D19>"
+        "dimension9=~^<D19>"
       ],
       [
-        "customVarValue9=~^<D20>"
+        "dimension9=~^<D20>"
       ],
       [
-        "customVarValue9=~^<D21>"
+        "dimension9=~^<D21>"
       ],
       [
-        "customVarValue9=~^<D22>"
+        "dimension9=~^<D22>"
       ],
       [
-        "customVarValue9=~^<D23>"
+        "dimension9=~^<D23>"
       ],
       [
-        "customVarValue9=~^<D24>"
+        "dimension9=~^<D24>"
       ],
       [
-        "customVarValue9=~^<D25>"
+        "dimension9=~^<D25>"
       ],
       [
-        "customVarValue9=~^<D98>"
+        "dimension9=~^<D98>"
       ],
       [
-        "customVarValue9=~^<D117>"
+        "dimension9=~^<D117>"
       ],
       [
-        "customVarValue9=~^<D241>"
+        "dimension9=~^<D241>"
       ],
       [
-        "customVarValue9=~^<EA74>"
+        "dimension9=~^<EA74>"
       ],
       [
-        "customVarValue9=~^<EA75>"
+        "dimension9=~^<EA75>"
       ],
       [
-        "customVarValue9=~^<EA78>"
+        "dimension9=~^<EA78>"
       ],
       [
-        "customVarValue9=~^<EA79>"
+        "dimension9=~^<EA79>"
       ],
       [
-        "customVarValue9=~^<EA199>"
+        "dimension9=~^<EA199>"
       ],
       [
-        "customVarValue9=~^<EA242>"
+        "dimension9=~^<EA242>"
       ],
       [
-        "customVarValue9=~^<EA321>"
+        "dimension9=~^<EA321>"
       ],
       [
-        "customVarValue9=~^<EA480>"
+        "dimension9=~^<EA480>"
       ],
       [
-        "customVarValue9=~^<EA570>"
+        "dimension9=~^<EA570>"
       ],
       [
-        "customVarValue9=~^<OT532>"
+        "dimension9=~^<OT532>"
       ],
       [
-        "customVarValue9=~^<OT537>"
+        "dimension9=~^<OT537>"
       ],
       [
-        "customVarValue9=~^<OT554>"
+        "dimension9=~^<OT554>"
       ],
       [
-        "customVarValue9=~^<PB202>"
+        "dimension9=~^<PB202>"
       ],
       [
-        "customVarValue9=~^<PB509>"
+        "dimension9=~^<PB509>"
       ]
     ],
     "plugins": [

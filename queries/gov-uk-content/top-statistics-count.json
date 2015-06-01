@@ -7,10 +7,10 @@
   "options": {
     "filtersets": [
       [
-        "customVarValue9=~^<EA480>"
+        "dimension9=~^<EA480>"
       ],
       [
-        "customVarValue9=~^<PB509>"
+        "dimension9=~^<PB509>"
       ]
     ],
     "plugins": [
