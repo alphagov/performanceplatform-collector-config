@@ -8,9 +8,7 @@
   "query": {
     "dimensions": [
       "browser",
-      "browserVersion",
-      "operatingSystem",
-      "operatingSystemVersion"
+      "browserVersion"
     ],
     "id": "ga:100268363",
     "metrics": [
