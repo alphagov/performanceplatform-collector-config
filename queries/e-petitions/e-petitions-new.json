@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "e-petitions", 
+    "data-type": "journey-by-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:66829898",
+    "dimensions": [],
+    "metrics": [
+      "pageviews"
+    ],
+    "filters": [
+       "pagePath=~/new$"
+    ],
+    "sort": [
+      "-pageviews"
+    ],
+    "maxResults": 50
+  }, 
+  "token": "ga"
+}

@@ -1,0 +1,25 @@
+{
+  "data-set": {
+    "data-group": "e-petitions", 
+    "data-type": "gov-uk-starts-by-source-medium"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:66829898",
+    "dimensions": [
+      "sourceMedium"
+    ],
+    "metrics": [
+      "users",
+      "newUsers",
+      "avgSessionDuration",
+      "bounceRate"
+    ],
+    "sort": [
+      "-users"
+    ],
+    "maxResults": 50
+  }, 
+  "token": "ga"
+}
