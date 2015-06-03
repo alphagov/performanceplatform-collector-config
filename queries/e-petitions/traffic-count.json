@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "e-petitions",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:66829898",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
