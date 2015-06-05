@@ -4,6 +4,7 @@
     "data-type": "journey-by-goal"
   },
   "entrypoint": "performanceplatform.collector.piwik.core",
+
   "query": {
     "site_id": "9",
     "api_method": "Goals.get",
@@ -15,7 +16,14 @@
   "options": {
     "mappings": {
       "nb_visits_converted": "bookingconverted",
-      "nb_conversions": "bookingsessions"
+      "nb_conversions": "count"
+
+    },
+    "additionalFields": {
+      "service_identifier": "pp|consular-appointment-booking-service",
+      "journey_stage": "booking",
+      "event_type": "stage",
+      "event_detail": "transaction"
     },
     "idMapping": ["dataType","_timestamp","timeSpan", "bookingconverted"]
     },

@@ -15,7 +15,13 @@
   "options": {
     "mappings": {
       "nb_visits_converted": "calendarconverted",
-      "nb_conversions": "calendarsessions"
+      "nb_conversions": "count"
+    },
+    "additionalFields": {
+      "service_identifier": "pp|consular-appointment-booking-service|calendar",
+      "journey_stage": "calendar",
+      "event_type": "stage",
+      "event_detail": "transaction"
     },
     "idMapping": ["dataType","_timestamp","timeSpan", "calendarconverted"]
     },
