@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "consular-appointment-booking-service",
+    "data-type": "journey-by-goal"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.core",
+  "query": {
+    "site_id": "9",
+    "api_method": "Goals.get",
+    "frequency":"weekly",
+    "api_method_arguments": {
+       "idGoal": "1"
+    }
+  },
+  "options": {
+    "mappings": {
+      "nb_visits_converted": "calendarconverted",
+      "nb_conversions": "calendarsessions"
+    },
+    "idMapping": ["dataType","_timestamp","timeSpan", "calendarconverted"]
+    },
+  "token": "piwik_fco"
+}
