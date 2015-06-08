@@ -4,7 +4,14 @@
     "data-type": "journey-by-page"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+    "additionalFields": {
+      "service_identifier": "pp|e-petitions",
+      "journey_stage": "thank-you",
+      "event_type": "stage",
+      "event_detail": "transaction"
+    }
+    }, 
   "query": {
     "id": "ga:66829898",
     "dimensions": [
