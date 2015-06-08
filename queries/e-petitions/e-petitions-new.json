@@ -10,7 +10,8 @@
       "journey_stage": "new",
       "event_type": "stage",
       "event_detail": "transaction"
-    }, 
+    }
+    },
   "query": {
     "id": "ga:66829898",
     "dimensions": [],
