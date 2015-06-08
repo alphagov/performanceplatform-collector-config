@@ -7,7 +7,9 @@
   "options": {}, 
   "query": {
     "id": "ga:66829898",
-    "dimensions": [],
+    "dimensions": [
+    "pagePath"
+    ],
     "metrics": [
       "pageviews"
     ],
