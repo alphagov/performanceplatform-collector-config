@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "consular-appointment-booking-service",
+    "data-type": "new-returning-count"
+  },
+  "entrypoint": "performanceplatform.collector.piwik.core",
+  "query": {
+    "site_id": "9",
+    "api_method": "API.get",
+    "frequency":"weekly",
+    "period":"week"
+  },
+
+  "options": {
+    "mappings": {
+    },
+    "filters": [],
+    "idMapping": ["dataType","_timestamp","timeSpan"]
+
+    },
+  "token": "piwik_fco"
+}
+
