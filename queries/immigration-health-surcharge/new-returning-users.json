@@ -1,0 +1,20 @@
+{
+  "data-set": {
+    "data-group": "immigration-health-surcharge", 
+    "data-type": "new-returning-users"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:100268363",
+    "dimensions": [
+      "userType"
+    ],
+    "metrics": [
+      "sessions",
+      "users"
+    ],
+    "filters": "ga:pagePath=~/payment"
+  }, 
+  "token": "ga"
+}

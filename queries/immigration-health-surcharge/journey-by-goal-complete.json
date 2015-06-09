@@ -21,7 +21,7 @@
     "metrics": [
       "goal5Completions"
     ],
-    "filters": "ga:pagePath=~/payment",
+    "segment": "sessions::condition::ga:pagePath=~/payment/IHSPortal/Welcome"
   }, 
   "token": "ga"
 }
