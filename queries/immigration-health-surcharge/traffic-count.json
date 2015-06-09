@@ -11,7 +11,8 @@
     "metrics": [
       "visitors",
       "pageviews"
-    ]
+    ],
+    "filters": "ga:pagePath=~/payment"
   },
   "token": "ga"
 }
