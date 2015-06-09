@@ -12,8 +12,13 @@
     ],
     "id": "ga:100268363",
     "metrics": [
-      "visitors"
-    ]
+      "sessions"
+    ],
+    "filters": "ga:pagePath=~/payment",
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 100
   },
   "token": "ga"
 }

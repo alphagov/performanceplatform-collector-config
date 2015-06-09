@@ -20,7 +20,8 @@
     "id": "ga:100268363", 
     "metrics": [
       "goal5Completions"
-    ]
+    ],
+    "filters": "ga:pagePath=~/payment",
   }, 
   "token": "ga"
 }
