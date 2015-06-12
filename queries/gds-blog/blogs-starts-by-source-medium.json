@@ -11,13 +11,13 @@
       "sourceMedium"
     ],
     "metrics": [
-      "users",
+      "sessions",
       "newUsers",
       "avgSessionDuration",
       "bounceRate"
     ],
     "sort": [
-      "-users"
+      "-sessions"
     ],
     "maxResults": 50
   }, 

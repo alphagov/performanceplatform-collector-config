@@ -12,7 +12,8 @@
     "pageTitle"
     ],
     "metrics": [
-      "pageviews"
+      "pageviews",
+      "uniquePageviews"
     ],
     "filters": [
        "pagePath=~^/category"

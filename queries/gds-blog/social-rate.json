@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "gds-blog",
+    "data-type": "social-rate"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "dimensions": [
+      "socialNetwork"
+    ],
+    "filters": "ga:socialNetwork!=(not set)",
+    "id": "ga:80956096",
+    "maxResults": 10,
+    "metrics": [
+      "entrances",
+      "bounceRate"
+    ],
+    "sort": [
+      "-entrances"
+    ]
+  },
+  "token": "ga"
+}
