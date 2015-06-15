@@ -11,8 +11,8 @@
       "keyword"
     ],
     "metrics": [
+      "sessions",
       "users",
-      "newUsers",
       "avgSessionDuration",
       "bounceRate"
     ],
