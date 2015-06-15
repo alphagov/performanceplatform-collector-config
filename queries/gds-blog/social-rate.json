@@ -9,7 +9,7 @@
     "dimensions": [
       "socialNetwork"
     ],
-    "filters": "ga:socialNetwork!=(not set)",
+    "filters": "socialNetwork!=(not set)",
     "id": "ga:80956096",
     "maxResults": 10,
     "metrics": [
