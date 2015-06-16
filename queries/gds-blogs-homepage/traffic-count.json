@@ -9,8 +9,8 @@
     "dimensions": [],
     "id": "ga:88172295",
     "metrics": [
-      "uniquePageviews",
-      "sessions"
+      "pageviews",
+      "users"
     ]
   },
   "token": "ga"
