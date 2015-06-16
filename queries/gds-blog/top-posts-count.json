@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "gds-blog", 
+    "data-type": "top-posts-count"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:80956096",
+    "dimensions": [
+    "pagePath",
+    "pageTitle"
+    ],
+    "metrics": [
+      "pageviews",
+      "uniquePageviews"
+    ],
+    "filters": [
+       "pagePath=~^/[0-9]{4}/[0-9]{2}/[0-9]{2}.*"
+    ],
+    "sort": [
+      "-pageviews"
+    ],
+    "maxResults": 50
+  }, 
+  "token": "ga"
+}

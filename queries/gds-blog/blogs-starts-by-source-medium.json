@@ -1,0 +1,25 @@
+{
+  "data-set": {
+    "data-group": "gds-blog", 
+    "data-type": "starts-by-source"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "id": "ga:80956096",
+    "dimensions": [
+      "sourceMedium"
+    ],
+    "metrics": [
+      "sessions",
+      "newUsers",
+      "avgSessionDuration",
+      "bounceRate"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 50
+  }, 
+  "token": "ga"
+}

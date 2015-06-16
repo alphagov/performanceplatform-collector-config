@@ -1,0 +1,23 @@
+{
+  "data-set": {
+    "data-group": "gds-blog",
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ], 
+    "id": "ga:80956096",
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 100
+  }, 
+  "token": "ga"
+}
