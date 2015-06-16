@@ -14,6 +14,7 @@
     "metrics": [
       "sessions"
     ],
+    "filters": "ga:pagePath=~^/pay-online$",
     "sort": [
       "-sessions"
     ],
