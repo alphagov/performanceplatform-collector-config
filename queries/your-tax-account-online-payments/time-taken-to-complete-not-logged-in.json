@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "yta-online-payments", 
+    "data-type": "time-taken-to-complete"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|yta-online-payments",
+      "eventAction": "not-logged-in",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "dimensions": [
+    ], 
+    "id": "ga:94136256", 
+    "metrics": [
+      "avgSessionDuration"
+    ],
+    "segment": "sessions::condition::ga:pagePath==/pay-online"
+  }, 
+  "token": "ga"
+}
