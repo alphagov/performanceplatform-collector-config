@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "yta-online-payments", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|yta-online-payments",
+      "eventAction": "goal7Completions",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal7Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:94136256", 
+    "metrics": [
+      "goal7Completions"
+    ],
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/stamp-duty"
+  }, 
+  "token": "ga"
+}

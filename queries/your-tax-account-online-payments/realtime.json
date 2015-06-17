@@ -7,7 +7,8 @@
   "options": {}, 
   "query": {
     "ids": "ga:94136256", 
-    "metrics": "ga:activeVisitors"
+    "metrics": "ga:activeVisitors",
+    "filters": "ga:pagePath=~^/pay-online$"
   }, 
   "token": "ga-realtime"
 }

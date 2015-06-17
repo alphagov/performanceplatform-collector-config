@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "yta-online-payments", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|yta-online-payments",
+      "eventAction": "goal8Completions",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal8Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:94136256", 
+    "metrics": [
+      "goal8Completions"
+    ],
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye-late-payment-penalty"
+  }, 
+  "token": "ga"
+}
