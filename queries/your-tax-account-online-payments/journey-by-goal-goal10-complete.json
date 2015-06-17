@@ -21,7 +21,7 @@
     "metrics": [
       "goal10Completions"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye-late-payment-penalty"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye-settlement-agreement"
   }, 
   "token": "ga"
 }

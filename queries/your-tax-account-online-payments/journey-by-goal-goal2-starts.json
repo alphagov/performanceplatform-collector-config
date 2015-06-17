@@ -21,7 +21,7 @@
     "metrics": [
       "goal2Starts"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/stamp-duty"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/success"
   }, 
   "token": "ga"
 }

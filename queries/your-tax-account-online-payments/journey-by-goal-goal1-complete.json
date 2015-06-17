@@ -21,7 +21,7 @@
     "metrics": [
       "goal1Completions"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/success"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/self-assessment"
   }, 
   "token": "ga"
 }
