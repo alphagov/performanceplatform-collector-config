@@ -10,8 +10,7 @@
     "metrics": [
       "users",
       "pageviews"
-    ],
-    "filters": "ga:pagePath=~^/pay-online$"
+    ]
   },
   "token": "ga"
 }
