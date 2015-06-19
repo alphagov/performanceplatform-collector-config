@@ -4,8 +4,18 @@
     "data-type": "top-count"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+       "idMapping": [
+           "_timestamp",
+           "period",
+           "dataType"
+       ],
+       "mappings": {
+           "timeSpan": "period"
+       }
+    }, 
   "query": {
+    "frequency": "daily",
     "id": "ga:66829898",
     "dimensions": [
     "pagePath",

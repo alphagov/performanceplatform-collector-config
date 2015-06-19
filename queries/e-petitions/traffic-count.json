@@ -4,8 +4,19 @@
     "data-type": "traffic-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
-  "options": {},
+  "options": {
+    "idMapping": [
+           "_timestamp",
+           "period",
+           "dataType",
+           "date"
+       ],
+       "mappings": {
+           "timeSpan": "period"
+       }
+    },
   "query": {
+    "frequency": "daily",
     "id": "ga:66829898",
     "metrics": [
       "users",

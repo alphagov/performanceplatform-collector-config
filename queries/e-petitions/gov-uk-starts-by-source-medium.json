@@ -6,6 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
+    "frequency": "daily",
     "id": "ga:66829898",
     "dimensions": [
       "sourceMedium"
