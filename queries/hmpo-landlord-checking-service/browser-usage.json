@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "e-petitions",
+    "data-group": "hmpo-landlord-checking-service",
     "data-type": "browser-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
@@ -10,7 +10,7 @@
       "browser",
       "browserVersion"
     ], 
-    "id": "ga:66829898",
+    "id": "ga:87024855",
     "metrics": [
       "sessions"
     ],

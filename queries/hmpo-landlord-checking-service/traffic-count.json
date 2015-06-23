@@ -1,12 +1,12 @@
 {
   "data-set": {
-    "data-group": "e-petitions",
+    "data-group": "hmpo-landlord-checking-service",
     "data-type": "traffic-count"
   },
   "entrypoint": "performanceplatform.collector.ga",
   "options": {},
   "query": {
-    "id": "ga:66829898",
+    "id": "ga:87024855",
     "metrics": [
       "users",
       "pageviews"

@@ -1,12 +1,12 @@
 {
   "data-set": {
-    "data-group": "e-petitions", 
+    "data-group": "hmpo-landlord-checking-service", 
     "data-type": "realtime"
   }, 
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "ids": "ga:66829898", 
+    "ids": "ga:87024855", 
     "metrics": "ga:activeVisitors"
   }, 
   "token": "ga-realtime"
