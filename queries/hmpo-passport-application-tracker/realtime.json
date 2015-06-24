@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "hmpo-passport-application-tracker", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:79136834", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

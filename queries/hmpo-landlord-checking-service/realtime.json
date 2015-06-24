@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "hmpo-landlord-checking-service", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:87024855", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
