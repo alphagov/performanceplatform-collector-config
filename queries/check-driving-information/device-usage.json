@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "e-petitions", 
+    "data-group": "check-driving-information", 
     "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
