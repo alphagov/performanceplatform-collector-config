@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "e-petitions", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:98235995", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}
