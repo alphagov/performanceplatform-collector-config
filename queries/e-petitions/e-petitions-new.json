@@ -22,7 +22,7 @@
     }
     },
   "query": {
-    "frequency": "weekly",
+    "frequency": "daily",
     "id": "ga:66829898",
     "dimensions": [
     "pagePath"
