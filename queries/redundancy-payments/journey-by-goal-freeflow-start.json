@@ -12,14 +12,14 @@
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal4Starts": "count"
+      "goal7Starts": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:92195758", 
     "metrics": [
-      "goal4Starts"
+      "goal7Starts"
     ]
   }, 
   "token": "ga"
