@@ -11,7 +11,7 @@
       "sourceMedium"
     ],
     "metrics": [
-      "sessions",
+      "entrances",
       "users",
       "avgSessionDuration",
       "bounceRate"
