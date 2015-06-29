@@ -1,10 +1,19 @@
 {
   "data-set": {
     "data-group": "e-petitions", 
-    "data-type": "journey-by-page"
+    "data-type": "journey"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
+       "idMapping": [
+           "_timestamp",
+           "period",
+           "pagePath"
+       ],
+       "mappings": {
+           "timeSpan": "period",
+           "pageviews": "uniqueEvents"
+       },
     "additionalFields": {
       "service_identifier": "pp|e-petitions",
       "journey_stage": "new",
@@ -13,20 +22,21 @@
     }
     },
   "query": {
+    "frequency": "daily",
     "id": "ga:66829898",
     "dimensions": [
     "pagePath"
     ],
     "metrics": [
-      "pageviews"
+      "pageviews",
+      "users"
     ],
     "filters": [
        "pagePath=~/new$"
     ],
     "sort": [
       "-pageviews"
-    ],
-    "maxResults": 50
+    ]
   }, 
   "token": "ga"
 }

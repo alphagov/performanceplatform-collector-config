@@ -4,8 +4,19 @@
     "data-type": "device-usage"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
-  "options": {}, 
+  "options": {
+       "idMapping": [
+           "_timestamp",
+           "period",
+           "dataType",
+           "deviceCategory"
+       ],
+       "mappings": {
+           "timeSpan": "period"
+       }
+    }, 
   "query": {
+    "frequency": "daily",
     "dimensions": [
       "deviceCategory"
     ], 
