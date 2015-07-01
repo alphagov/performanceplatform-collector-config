@@ -1,0 +1,25 @@
+{
+  "data-set": {
+    "data-group": "civil-legal-advice",
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ], 
+    "id": "ga:103932505",
+    "metrics": [
+      "users",
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 100
+  }, 
+  "token": "ga"
+}
+
