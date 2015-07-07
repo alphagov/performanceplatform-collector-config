@@ -6,7 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {}, 
   "query": {
-    "id": "ga:97094931",
+    "id": "ga:103257075",
     "dimensions": [
       "userType"
     ],

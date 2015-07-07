@@ -6,7 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga.realtime", 
   "options": {}, 
   "query": {
-    "ids": "ga:97094931", 
+    "ids": "ga:103257075", 
     "metrics": "ga:activeVisitors"
   }, 
   "token": "ga-realtime"

@@ -17,7 +17,7 @@
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
-    "id": "ga:97094931",
+    "id": "ga:103257075",
     "dimensions": [
       "pagePath"
     ],
