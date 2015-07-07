@@ -1,0 +1,17 @@
+{
+  "data-set": {
+    "data-group": "tax-estimate", 
+    "data-type": "time-taken-to-complete"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+    ], 
+    "id": "ga:97254881", 
+    "metrics": [
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}

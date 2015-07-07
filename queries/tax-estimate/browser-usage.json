@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "tax-estimate",
+    "data-type": "browser-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "browser",
+      "browserVersion"
+    ], 
+    "id": "ga:97254881",
+    "metrics": [
+      "users",
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ],
+    "maxResults": 100
+  }, 
+  "token": "ga"
+}

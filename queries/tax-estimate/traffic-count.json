@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "tax-estimate",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:97254881",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}

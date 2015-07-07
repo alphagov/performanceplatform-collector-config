@@ -1,0 +1,22 @@
+{
+  "data-set": {
+    "data-group": "tax-estimate", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:97254881", 
+    "metrics": [
+      "sessions",
+      "users"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}
