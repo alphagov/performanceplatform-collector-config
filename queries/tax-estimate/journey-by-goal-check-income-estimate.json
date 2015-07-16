@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "tax-estimate", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "service_identifier": "pp|tax-estimate|check-income-estimate",
+      "journey_stage": "amend income completion",
+      "event_type": "stage",
+      "event_detail": "transaction"
+    },
+    "mappings": {
+      "goal5Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
+  }, 
+  "query": {
+    "id": "ga:97254881",
+    "metrics": [
+      "goal5Completions"
+    ]
+  }, 
+  "token": "ga"
+}
