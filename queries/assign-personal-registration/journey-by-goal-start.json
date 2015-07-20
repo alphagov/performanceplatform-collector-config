@@ -6,7 +6,7 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|retain-personalised-registration",
+      "eventCategory": "pp|assign-personalised-registration",
       "eventAction": "start",
       "eventType": "stage",
       "eventDetail": "transaction"
