@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "hmpo-passport-application-requests",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:79139721",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
