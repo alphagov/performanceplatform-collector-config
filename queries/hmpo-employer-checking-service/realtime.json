@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "hmpo-employer-checking-service", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:91105065", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

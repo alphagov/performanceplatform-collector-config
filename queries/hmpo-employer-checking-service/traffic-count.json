@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "hmpo-employer-checking-service",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:91105065",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
