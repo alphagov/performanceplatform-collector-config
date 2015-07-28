@@ -6,22 +6,22 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal1Starts",
+      "eventCategory": "pp|yta-online-payments|survey",
+      "eventAction": "Survey-Completions",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal1Starts": "count"
+      "goal2Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:94136256", 
     "metrics": [
-      "goal1Starts"
+      "goal2Completions"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/self-assessment"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/success"
   }, 
   "token": "ga"
 }

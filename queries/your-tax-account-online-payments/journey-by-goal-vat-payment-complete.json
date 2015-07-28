@@ -6,22 +6,22 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal4Completions",
+      "eventCategory": "pp|yta-online-payments|vat-payments",
+      "eventAction": "VAT-Payment-Completions",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal4Completions": "count"
+      "goal5Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:94136256", 
     "metrics": [
-      "goal4Completions"
+      "goal5Completions"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/vat"
   }, 
   "token": "ga"
 }

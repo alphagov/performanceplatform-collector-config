@@ -6,22 +6,22 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal12Starts",
+      "eventCategory": "pp|yta-online-payments|paye-payments",
+      "eventAction": "PAYE-Payment-Completions",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal12Starts": "count"
+      "goal4Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:94136256", 
     "metrics": [
-      "goal12Starts"
+      "goal4Completions"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/class-1a-national-insurance"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye"
   }, 
   "token": "ga"
 }

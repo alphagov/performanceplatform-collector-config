@@ -6,8 +6,8 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal6Completions",
+      "eventCategory": "pp|yta-online-payments|other-taxes",
+      "eventAction": "Other-Taxes-Completions",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
