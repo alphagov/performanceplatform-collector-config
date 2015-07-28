@@ -6,22 +6,22 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal2Starts",
+      "eventCategory": "pp|yta-online-payments|cis-penalty",
+      "eventAction": "CIS-Penalty-Starts",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal2Starts": "count"
+      "goal11Starts": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:94136256", 
     "metrics": [
-      "goal2Starts"
+      "goal11Starts"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/success"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/cis-late-filing-penalty"
   }, 
   "token": "ga"
 }

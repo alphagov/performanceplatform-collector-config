@@ -6,22 +6,22 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal6Starts",
+      "eventCategory": "pp|yta-online-payments|paye-late-payments",
+      "eventAction": "PAYE-Late-Payment-Starts",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal6Starts": "count"
+      "goal8Starts": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:94136256", 
     "metrics": [
-      "goal6Starts"
+      "goal8Starts"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/other-taxes"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye-late-payment-penalty"
   }, 
   "token": "ga"
 }

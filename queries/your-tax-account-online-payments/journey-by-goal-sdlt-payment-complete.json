@@ -6,22 +6,22 @@
   "entrypoint": "performanceplatform.collector.ga", 
   "options": {
     "additionalFields": {
-      "eventCategory": "pp|yta-online-payments",
-      "eventAction": "goal10Starts",
+      "eventCategory": "pp|yta-online-payments|sdlt-payments",
+      "eventAction": "SDLT-Payment-Completions",
       "eventType": "stage",
       "eventDetail": "transaction"
     },
     "mappings": {
-      "goal10Starts": "count"
+      "goal7Completions": "count"
     },
     "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
   }, 
   "query": {
     "id": "ga:94136256", 
     "metrics": [
-      "goal10Starts"
+      "goal7Completions"
     ],
-    "segment": "sessions::condition::ga:pagePath=~/pay-online/epaye-settlement-agreement"
+    "segment": "sessions::condition::ga:pagePath=~/pay-online/stamp-duty"
   }, 
   "token": "ga"
 }
