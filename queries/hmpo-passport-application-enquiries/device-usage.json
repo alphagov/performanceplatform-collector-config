@@ -1,0 +1,21 @@
+{
+  "data-set": {
+    "data-group": "hmpo-passport-application-enquiries", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:79136344", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}
