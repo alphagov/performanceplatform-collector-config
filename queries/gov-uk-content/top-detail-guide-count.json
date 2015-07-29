@@ -159,7 +159,7 @@
       "pageTitle"
     ],
     "filters": [
-      "customVarValue2==detailed_guidance"
+      "dimension2==detailed_guidance"
     ],
     "id": "ga:74473500",
     "maxResults": 10,
