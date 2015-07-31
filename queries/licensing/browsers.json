@@ -11,7 +11,7 @@
       "browserVersion"
     ],
     "filters": "ga:pagePath=~/apply-for-a-licence",
-    "ids": "ga:84779739",
+    "id": "ga:84779739",
     "metrics": [
       "visitors"
     ]

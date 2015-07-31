@@ -11,7 +11,7 @@
     "mappings": {
       "goal4Completions": "count"
     },
-    "idMappings": ["_timestamp", "timeSpan", "stage"]
+    "idMapping": ["_timestamp", "timeSpan", "stage"]
   }, 
   "query": {
     "id": "ga:86360471", 
