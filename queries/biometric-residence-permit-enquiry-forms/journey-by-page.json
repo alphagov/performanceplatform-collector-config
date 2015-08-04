@@ -1,0 +1,30 @@
+{
+  "data-set": {
+    "data-group": "biometric-residence-permit-enquiry-form", 
+    "data-type": "journey-by-page"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "service_identifier": "pp|biometric-residence-permit-enquiry-form",
+      "event_type": "stage",
+      "event_detail": "routing"
+    },
+    "mappings": {
+      "pagePath": "journey_stage",
+      "users": "uniqueEvents"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
+  }, 
+  "query": {
+    "id": "ga:105636436",
+    "dimensions": [
+      "pagePath"
+    ],
+    "metrics": [
+      "users"
+    ],
+    "filters": "ga:pagePath=~/not-arrived|/correct-mistakes|/lost-stolen-damaged"
+  }, 
+  "token": "ga"
+}

@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "biometric-residence-permit-enquiry-form",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:105636436",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}
