@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "biometric-residence-permit-enquiry-form", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "service_identifier": "pp|biometric-residence-permit-enquiry-form|not-arrived",
+      "journey_stage": "completion",
+      "event_type": "stage",
+      "event_detail": "transaction"
+    },
+    "mappings": {
+      "goal3Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "service_identifier", "journey_stage", "event_type", "event_detail"]
+  }, 
+  "query": {
+    "id": "ga:105636436",
+    "metrics": [
+      "goal3Completions"
+    ]
+  }, 
+  "token": "ga"
+}
