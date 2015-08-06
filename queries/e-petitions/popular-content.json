@@ -8,7 +8,8 @@
        "idMapping": [
            "_timestamp",
            "period",
-           "dataType"
+           "dataType",
+           "pageTitle"
        ],
        "mappings": {
            "timeSpan": "period"
@@ -18,14 +19,13 @@
     "frequency": "daily",
     "id": "ga:66829898",
     "dimensions": [
-    "pagePath",
     "pageTitle"
     ],
     "metrics": [
       "pageviews"
     ],
     "filters": [
-       "pagePath=~/[0-9]{5}$"
+       "pagePath=~/[0-9]{6};ga:pageTitle!=Petitions - UK Government and Parliament"
     ],
     "sort": [
       "-pageviews"
