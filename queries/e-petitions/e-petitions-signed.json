@@ -8,7 +8,7 @@
        "idMapping": [
            "_timestamp",
            "period",
-           "pagePath"
+           "journey_stage"
        ],
        "mappings": {
            "timeSpan": "period",
@@ -24,15 +24,13 @@
   "query": {
     "frequency": "daily",
     "id": "ga:66829898",
-    "dimensions": [
-    "pagePath"
-    ],
+    "dimensions": [],
     "metrics": [
       "pageviews",
       "users"
     ],
     "filters": [
-       "pagePath=~/signed$"
+       "pagePath=~/signed/"
     ],
     "sort": [
       "-pageviews"
