@@ -1,0 +1,26 @@
+{
+    "data-set": {
+        "data-group": "e-petitions",
+        "data-type": "trending"
+    },
+    "entrypoint": "performanceplatform.collector.ga.trending",
+    "options": {
+        "idMapping": [
+            "_timestamp",
+            "dataType",
+            "pageTitle"
+        ]
+    },
+    "query": {
+        "dimensions": [
+            "pageTitle",
+            "pagePath"
+        ],
+        "filters": [
+            "pagePath=~/[0-9]{6};ga:pageTitle!~Petitions - UK Government and Parliament|Thank you - Petitions"
+        ],
+        "id": "66829898",
+        "metric": "pageviews"
+    },
+    "token": "ga-trending"
+}
