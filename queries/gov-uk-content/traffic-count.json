@@ -5,6 +5,9 @@
   },
   "entrypoint": "performanceplatform.collector.ga.contrib.content.table",
   "options": {
+    "mappings": {
+      "users": "visitors"
+    },
     "filtersets": [
       [
         "dimension9=~^<D1>"
@@ -159,7 +162,7 @@
     "id": "ga:74473500",
     "maxResults": 0,
     "metrics": [
-      "visitors"
+      "users"
     ],
     "sort": []
   },
