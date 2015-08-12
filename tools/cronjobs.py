@@ -12,17 +12,13 @@ entrypoint_information = {
     'performanceplatform.collector.webtrends.reports': {
         'credentials': {
             u'nas-applications': 'credentials/'
-            'webtrends_national_apprenticeship_scheme.json',
-            u'nhs-choices': 'credentials/webtrends_nhs_choices.json',
-        },
+            'webtrends_national_apprenticeship_scheme.json'},
         'repeat': 'daily',
     },
     'performanceplatform.collector.webtrends.keymetrics': {
         'credentials': {
             u'nas-applications': 'credentials/'
-            'webtrends_national_apprenticeship_scheme.json',
-            u'nhs-choices': 'credentials/webtrends_nhs_choices.json',
-        },
+            'webtrends_national_apprenticeship_scheme.json'},
         'repeat': 'hourly',
     },
     'performanceplatform.collector.ga.trending': {
@@ -167,6 +163,16 @@ def setup_time_data_sets(queries, entrypoint_information):
 
 
 def main():
+    stagecraft_host = \
+        'stagecraft.preview.performance.service.gov.uk'
+    from httplib import HTTPSConnection
+    conn = HTTPSConnection(stagecraft_host)
+    conn.request("GET", "/collector")
+    resp = conn.getresponse()
+    data = resp.read()
+
+    print(data)
+    return True
     try:
         queries = [
             os.path.join(dp, f) for dp, dn, filenames
