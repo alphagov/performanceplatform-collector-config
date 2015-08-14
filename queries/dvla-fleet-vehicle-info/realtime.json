@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "dvla-fleet-vehicle-info", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:92853239", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}
