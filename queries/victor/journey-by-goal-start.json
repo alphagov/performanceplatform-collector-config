@@ -1,0 +1,26 @@
+{
+  "data-set": {
+    "data-group": "victor", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|victor",
+      "eventAction": "start",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal2Starts": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:104100313", 
+    "metrics": [
+      "goal2Starts"
+    ]
+  }, 
+  "token": "ga"
+}
