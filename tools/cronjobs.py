@@ -111,7 +111,7 @@ def setup_time_data_set(
     return (query, credentials_file, token_file)
 
 
-def setup_time_data_sets(queries, entrypoint_information):
+def setup_time_data_sets(collector_configs, entrypoint_information):
     """Testing returns correct time grouped data sets
     >>> entrypoint_information = {
     ...   'performanceplatform.collector.pingdom': {
@@ -119,9 +119,9 @@ def setup_time_data_sets(queries, entrypoint_information):
     ...     'repeat': 'daily'
     ...   }
     ... }
-    >>> queries = ['queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json']  # noqa
-    >>> setup_time_data_sets(queries, entrypoint_information)
-    {'daily': [('queries/bis-payment-of-patent-renewal-fee-f12/monitoring.json', 'credentials/ga.json', 'tokens/pingdom.json')]}
+    >>> collector_configs = {u'slug': u'govuk-monitoring', u'data_source': {u'slug': u'pingdom-performanceplatform', u'id': u'abcdef1', u'name': u'Pingdom Performance Platform'}, u'name': u'Pingdom govuk monitoring', u'data_set': {u'bearer_token': u'floop', u'data_type': u'monitoring', u'data_group': u'govuk'}, u'id': u'abcdef2', u'entry_point': u'performanceplatform.collector.pingdom', u'provider': {u'slug': u'pingdom', u'id': u'abcdef3', u'name': u'Pingdom'}, u'query': {u'name': u'govuk_search'}, u'type': {u'slug': u'pingdom', u'id': u'abcdef4', u'name': u'Pingdom'}, u'options': {}}]  # noqa
+    >>> setup_time_data_sets(collector_configs, entrypoint_information)
+    {'daily': [('govuk-monitoring', 'credentials/ga.json', 'tokens/pingdom.json')]}
     >>> entrypoint_information = {
     ...   'performanceplatform.collector.pingdom': {
     ...     'credentials': 'credentials/ga.json',
@@ -133,14 +133,9 @@ def setup_time_data_sets(queries, entrypoint_information):
     {u'hourly': [('test/fixtures/query_with_repeat.json', 'credentials/ga.json', 'tokens/pingdom.json')]}
     """
     time_data_sets = {}
-    for query in queries:
-        with open(query) as query_fd:
-            try:
-                query_json = json.load(query_fd)
-            except ValueError:
-                raise ValueError("Invalid JSON in {}".format(query))
-            entrypoint = query_json['entrypoint']
-            token_file = "tokens/{0}.json".format(query_json['token'])
+    for config in collector_configs:
+        entrypoint = config['entry_point']
+        token_file = "tokens/{0}.json".format(config['provider']['slug'])
 
         query_info = entrypoint_information.get(entrypoint, None)
 
@@ -155,9 +150,9 @@ def setup_time_data_sets(queries, entrypoint_information):
 
         time_data_sets[repeat].append(setup_time_data_set(
             query_info,
-            query,
+            config,
             token_file,
-            query_json['data-set']['data-group']))
+            config['data-set']['data-group']))
 
     return time_data_sets
 
@@ -174,16 +169,11 @@ def main():
     }
     conn.request("GET", "/collector", headers=headers)
     resp = conn.getresponse()
-    data = resp.read()
+    collectors = json.loads(resp.read())
 
-    print(data)
-    return True
     try:
-        queries = [
-            os.path.join(dp, f) for dp, dn, filenames
-            in os.walk('queries') for f in filenames
-            if os.path.splitext(f)[1] == '.json']
-        time_data_sets = setup_time_data_sets(queries, entrypoint_information)
+        time_data_sets = setup_time_data_sets(
+            collectors, entrypoint_information)
 
         daily_jobs = daily(time_data_sets['daily'])
         hourly_jobs = hourly(time_data_sets['hourly'])
