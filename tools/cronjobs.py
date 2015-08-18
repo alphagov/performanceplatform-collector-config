@@ -167,7 +167,12 @@ def main():
         'stagecraft.preview.performance.service.gov.uk'
     from httplib import HTTPSConnection
     conn = HTTPSConnection(stagecraft_host)
-    conn.request("GET", "/collector")
+    # will come from reading file in set location
+    token = "abcdef"
+    headers = {
+        "Authorization": "Bearer {}".format(token)
+    }
+    conn.request("GET", "/collector", headers=headers)
     resp = conn.getresponse()
     data = resp.read()
 
