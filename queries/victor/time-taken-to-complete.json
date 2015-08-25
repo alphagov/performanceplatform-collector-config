@@ -1,6 +1,6 @@
 {
   "data-set": {
-    "data-group": "your-tax-account", 
+    "data-group": "victor", 
     "data-type": "time-taken-to-complete"
   }, 
   "entrypoint": "performanceplatform.collector.ga", 
