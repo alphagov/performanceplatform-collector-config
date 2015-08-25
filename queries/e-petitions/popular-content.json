@@ -25,7 +25,7 @@
       "pageviews"
     ],
     "filters": [
-       "pagePath=~/[0-9]{6};ga:pageTitle!~Petitions - UK Government and Parliament|Thank you - Petitions"
+       "pagePath=~/[0-9]{6};ga:pageTitle!~Petitions - UK Government and Parliament|Thank you - Petitions|Sign this petition"
     ],
     "sort": [
       "-pageviews"
