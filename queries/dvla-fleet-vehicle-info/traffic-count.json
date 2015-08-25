@@ -1,0 +1,16 @@
+{
+  "data-set": {
+    "data-group": "dvla-fleet-vehicle-info",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {},
+  "query": {
+    "id": "ga:92853239",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}

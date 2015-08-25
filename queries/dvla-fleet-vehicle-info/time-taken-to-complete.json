@@ -1,0 +1,17 @@
+{
+  "data-set": {
+    "data-group": "dvla-fleet-vehicle-info", 
+    "data-type": "time-taken-to-complete"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+    ], 
+    "id": "ga:92853239", 
+    "metrics": [
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}

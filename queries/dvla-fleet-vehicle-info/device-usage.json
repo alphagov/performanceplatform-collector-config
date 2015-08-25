@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "dvla-fleet-vehicle-info", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:92853239", 
+    "metrics": [
+      "sessions",
+      "users"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}
+
+
