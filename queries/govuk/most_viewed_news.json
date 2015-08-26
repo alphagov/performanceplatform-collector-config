@@ -1,27 +1,28 @@
 {
   "data-set": {
-    "data-group": "govuk", 
+    "data-group": "govuk",
     "data-type": "most_viewed_news"
-  }, 
-  "entrypoint": "performanceplatform.collector.ga", 
+  },
+  "entrypoint": "performanceplatform.collector.ga",
   "options": {
     "idMapping": [
-      "pagePath", 
+      "pagePath",
       "pageTitle"
-    ]
-  }, 
+    ],
+    "empty-data-set": true
+  },
   "query": {
     "dimensions": [
-      "pageTitle", 
+      "pageTitle",
       "pagePath"
-    ], 
+    ],
     "filters": [
       "pagePath=~^/government/(news|speeches).*"
-    ], 
-    "id": "ga:53872948", 
+    ],
+    "id": "ga:53872948",
     "metrics": [
       "pageviews"
     ]
-  }, 
+  },
   "token": "ga"
 }
