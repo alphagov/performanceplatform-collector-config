@@ -1,0 +1,24 @@
+{
+  "data-set": {
+    "data-group": "carers-allowance", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:94954354", 
+    "metrics": [
+      "sessions",
+      "users"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}
+
+
