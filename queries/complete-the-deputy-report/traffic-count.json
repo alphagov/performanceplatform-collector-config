@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "complete-the-deputy-report",
+    "data-type": "traffic-count"
+  },
+  "entrypoint": "performanceplatform.collector.ga",
+  "options": {
+    "idMapping": [
+           "_timestamp",
+           "period",
+           "dataType",
+           "date"
+       ],
+       "mappings": {
+           "timeSpan": "period"
+       }
+    },
+  "query": {
+    "frequency": "daily",
+    "id": "ga:94663914",
+    "metrics": [
+      "users",
+      "pageviews"
+    ]
+  },
+  "token": "ga"
+}

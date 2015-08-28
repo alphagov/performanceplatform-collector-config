@@ -1,0 +1,17 @@
+{
+  "data-set": {
+    "data-group": "complete-the-deputy-report", 
+    "data-type": "time-taken-to-complete"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {}, 
+  "query": {
+    "dimensions": [
+    ], 
+    "id": "ga:94663914", 
+    "metrics": [
+      "avgSessionDuration"
+    ]
+  }, 
+  "token": "ga"
+}
