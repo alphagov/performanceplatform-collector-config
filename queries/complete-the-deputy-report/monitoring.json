@@ -1,0 +1,12 @@
+{
+  "data-set": {
+    "data-group": "complete-the-deputy-report", 
+    "data-type": "monitoring"
+  }, 
+  "entrypoint": "performanceplatform.collector.pingdom", 
+  "options": {}, 
+  "query": {
+    "name": "complete-the-deputy-report"
+  }, 
+  "token": "pingdom"
+}
