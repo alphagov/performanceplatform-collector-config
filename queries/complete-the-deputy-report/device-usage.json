@@ -1,0 +1,32 @@
+{
+  "data-set": {
+    "data-group": "complete-the-deputy-report", 
+    "data-type": "device-usage"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+       "idMapping": [
+           "_timestamp",
+           "period",
+           "dataType",
+           "deviceCategory"
+       ],
+       "mappings": {
+           "timeSpan": "period"
+       }
+    }, 
+  "query": {
+    "frequency": "daily",
+    "dimensions": [
+      "deviceCategory"
+    ], 
+    "id": "ga:94663914", 
+    "metrics": [
+      "sessions"
+    ],
+    "sort": [
+      "-sessions"
+    ]
+  }, 
+  "token": "ga"
+}

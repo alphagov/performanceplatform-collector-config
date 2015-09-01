@@ -1,0 +1,33 @@
+{
+  "data-set": {
+    "data-group": "complete-the-deputy-report", 
+    "data-type": "top-count"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+       "idMapping": [
+           "_timestamp",
+           "period",
+           "dataType",
+           "pageTitle"
+       ],
+       "mappings": {
+           "timeSpan": "period"
+       }
+    }, 
+  "query": {
+    "frequency": "daily",
+    "id": "ga:94663914",
+    "dimensions": [
+    "pageTitle"
+    ],
+    "metrics": [
+      "pageviews"
+    ],
+    "sort": [
+      "-pageviews"
+    ],
+    "maxResults": 50
+  }, 
+  "token": "ga"
+}
