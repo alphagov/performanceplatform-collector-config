@@ -126,14 +126,14 @@ def setup_time_data_sets(collectors, entrypoint_information):
     >>> collectors = [{
     ...   'slug': 'test-collector',
     ...   'entry_point': 'performanceplatform.collector.pingdom',
-    ...   'provider': {'slug': 'pingdom'},
+    ...   'type': {'slug': 'pingdom'},
     ...   'data_set': {'data_group': 'test_data_group'}
     ... }]  # noqa
     >>> setup_time_data_sets(collectors, entrypoint_information) #doctest: +NORMALIZE_WHITESPACE
-    {'daily': [({'data_set': {'data_group': 'test_data_group'},
+    {'daily': [({'type': {'slug': 'pingdom'},
     'entry_point': 'performanceplatform.collector.pingdom',
     'slug': 'test-collector',
-    'provider': {'slug': 'pingdom'}},
+    'data_set': {'data_group': 'test_data_group'}},
     'credentials/ga.json',
     'tokens/pingdom.json')]}
     >>> entrypoint_information = {
@@ -145,14 +145,14 @@ def setup_time_data_sets(collectors, entrypoint_information):
     >>> collectors = [{
     ...   'slug': 'test-collector',
     ...   'entry_point': 'performanceplatform.collector.pingdom',
-    ...   'provider': {'slug': 'pingdom'},
+    ...   'type': {'slug': 'pingdom'},
     ...   'data_set': {'data_group': 'test_data_group'}
     ... }]
     >>> setup_time_data_sets(collectors, entrypoint_information) #doctest: +NORMALIZE_WHITESPACE
-    {'hourly': [({'data_set': {'data_group': 'test_data_group'},
+    {'hourly': [({'type': {'slug': 'pingdom'},
     'entry_point': 'performanceplatform.collector.pingdom',
     'slug': 'test-collector',
-    'provider': {'slug': 'pingdom'}},
+    'data_set': {'data_group': 'test_data_group'}},
     'credentials/ga.json',
     'tokens/pingdom.json')]}
     """
@@ -160,7 +160,7 @@ def setup_time_data_sets(collectors, entrypoint_information):
     for collector in collectors:
         entrypoint = collector.get('entry_point')
         token_file = "tokens/{0}.json".format(
-            collector.get('provider').get('slug'))
+            collector.get('type').get('slug'))
 
         collector_info = entrypoint_information.get(entrypoint, None)
 
