@@ -1,0 +1,13 @@
+{
+  "data-set": {
+    "data-group": "civil-service-jobs", 
+    "data-type": "realtime"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga.realtime", 
+  "options": {}, 
+  "query": {
+    "ids": "ga:93141344", 
+    "metrics": "ga:activeVisitors"
+  }, 
+  "token": "ga-realtime"
+}

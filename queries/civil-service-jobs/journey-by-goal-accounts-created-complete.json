@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "civil-service-jobs", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|civil-service-jobs|accounts-created",
+      "eventAction": "accounts-created-completions",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal1Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:93141344", 
+    "metrics": [
+      "goal1Completions"
+    ],
+    "segment": "sessions::condition::ga:pagePath=~^/account/create$"
+  }, 
+  "token": "ga"
+}
