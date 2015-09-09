@@ -1,0 +1,27 @@
+{
+  "data-set": {
+    "data-group": "civil-service-jobs", 
+    "data-type": "journey-by-goal"
+  }, 
+  "entrypoint": "performanceplatform.collector.ga", 
+  "options": {
+    "additionalFields": {
+      "eventCategory": "pp|civil-service-jobs|application-form-submission",
+      "eventAction": "submissions-completions",
+      "eventType": "stage",
+      "eventDetail": "transaction"
+    },
+    "mappings": {
+      "goal5Completions": "count"
+    },
+    "idMapping": ["_timestamp", "timeSpan", "eventCategory", "eventAction", "eventType", "eventDetail"]
+  }, 
+  "query": {
+    "id": "ga:93141344", 
+    "metrics": [
+      "goal5Completions"
+    ],
+    "segment": "sessions::condition::ga:pagePath=~^/application/form/1/1478$"
+  }, 
+  "token": "ga"
+}
