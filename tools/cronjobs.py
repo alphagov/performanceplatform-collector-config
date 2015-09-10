@@ -1,6 +1,7 @@
 from __future__ import print_function
 import json
 import os
+import re
 import sys
 
 
@@ -10,19 +11,21 @@ entrypoint_information = {
         'repeat': 'daily',
     },
     'performanceplatform.collector.webtrends.reports': {
-        'credentials': {
-            u'nas-applications': 'credentials/'
-            'webtrends_national_apprenticeship_scheme.json',
-            u'nhs-choices': 'credentials/webtrends_nhs_choices.json',
-        },
+        'credentials': [
+            ('^nas-applications$',
+             'credentials/webtrends_national_apprenticeship_scheme.json'),
+            ('^nhs-choices$',
+             'credentials/webtrends_nhs_choices.json'),
+        ],
         'repeat': 'daily',
     },
     'performanceplatform.collector.webtrends.keymetrics': {
-        'credentials': {
-            u'nas-applications': 'credentials/'
-            'webtrends_national_apprenticeship_scheme.json',
-            u'nhs-choices': 'credentials/webtrends_nhs_choices.json',
-        },
+        'credentials': [
+            ('^nas-applications$',
+             'credentials/webtrends_national_apprenticeship_scheme.json'),
+            ('^nhs-choices$',
+             'credentials/webtrends_nhs_choices.json'),
+        ],
         'repeat': 'hourly',
     },
     'performanceplatform.collector.ga.trending': {
@@ -101,16 +104,28 @@ def setup_time_data_set(
     >>> setup_time_data_set(collector_info, collector, token_file, None)
     ({'entry_point': 'entry.point', 'some': 'query'}, 'credentials/ga.json', 'abc.txt')
     >>> collector_info = {
-    ... 'credentials': {'nas':'credentials/ga.json'},
+    ... 'credentials': [('nas', 'credentials/ga.json')],
     ... 'repeat': 'daily',
     ... }
     >>> setup_time_data_set(collector_info, collector, token_file, 'nas')
     ({'entry_point': 'entry.point', 'some': 'query'}, 'credentials/ga.json', 'abc.txt')
+    >>> collector_info = {
+    ... 'credentials': [
+    ...   ('blah', 'credentials/ga.json'),
+    ...   ('.*', 'credentials/default.json'),
+    ...  ],
+    ... 'repeat': 'daily',
+    ... }
+    >>> setup_time_data_set(collector_info, collector, token_file, 'some-other')
+    ({'entry_point': 'entry.point', 'some': 'query'}, 'credentials/default.json', 'abc.txt')
 
     """
     credentials_file = collector_info['credentials']
-    if type(credentials_file) == dict:
-        credentials_file = credentials_file[data_group]
+    if type(credentials_file) == list:
+        for pattern, path in credentials_file:
+            if re.search(pattern, data_group):
+                credentials_file = path
+                break
 
     return (collector, credentials_file, token_file)
 
