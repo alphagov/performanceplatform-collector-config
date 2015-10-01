@@ -7,7 +7,12 @@ import sys
 
 entrypoint_information = {
     'performanceplatform.collector.ga': {
-        'credentials': 'credentials/ga.json',
+        'credentials': [
+            ('^gov[-]?uk.*$',
+             'credentials/ga_govuk.json'),
+            ('^.+$',
+             'credentials/ga.json'),
+        ],
         'repeat': 'daily',
     },
     'performanceplatform.collector.webtrends.reports': {
@@ -29,15 +34,30 @@ entrypoint_information = {
         'repeat': 'hourly',
     },
     'performanceplatform.collector.ga.trending': {
-        'credentials': 'credentials/ga.json',
+        'credentials': [
+            ('^gov[-]?uk.*$',
+             'credentials/ga_govuk.json'),
+            ('^.+$',
+             'credentials/ga.json'),
+        ],
         'repeat': 'daily',
     },
     'performanceplatform.collector.ga.contrib.content.table': {
-        'credentials': 'credentials/ga.json',
+        'credentials': [
+            ('^gov[-]?uk.*$',
+             'credentials/ga_govuk.json'),
+            ('^.+$',
+             'credentials/ga.json'),
+        ],
         'repeat': 'daily',
     },
     'performanceplatform.collector.ga.realtime': {
-        'credentials': 'credentials/ga.json',
+        'credentials': [
+            ('^government$',
+             'credentials/ga_govuk.json'),
+            ('^.+$',
+             'credentials/ga.json'),
+        ],
         'repeat': '2minute',
     },
     'performanceplatform.collector.pingdom': {
