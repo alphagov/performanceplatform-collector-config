@@ -3,6 +3,7 @@ import json
 import os
 import re
 import sys
+import string
 
 
 entrypoint_information = {
@@ -150,6 +151,36 @@ def setup_time_data_set(
     return (collector, credentials_file, token_file)
 
 
+def get_token_file_from_collector(collector):
+    """
+    >>> get_token_file_from_collector({'type': {'slug':'ga-contrib-content-table'}})
+    'ga-content'
+    >>> get_token_file_from_collector({'type': {'slug': 'ga'}})
+    'ga'
+    >>> get_token_file_from_collector({'type': {'slug': 'webtrends-keymetrics'}})
+    'webtrends'
+    >>> get_token_file_from_collector({'data_source': {'slug': 'piwik-fco'}})
+    'piwik_fco'
+    >>> get_token_file_from_collector({'data_source': {'slug': 'piwik-fco'}, 'type': {'slug': 'piwik-realtime'}})
+    'piwik_fco_realtime'
+    >>> get_token_file_from_collector({'data_source': {'slug': 'piwik-verify'}})
+    'piwik_verify'
+    """
+    type_slug = collector.get('type', {}).get('slug', '')
+    if type_slug == 'ga-contrib-content-table':
+        return 'ga-content'
+    if string.find(type_slug, 'webtrends') >= 0:
+        return 'webtrends'
+    if collector.get('data_source', {}).get('slug') == 'piwik-fco':
+        if type_slug == 'piwik-realtime':
+            return 'piwik_fco_realtime'
+        else:
+            return 'piwik_fco'
+    if collector.get('data_source', {}).get('slug') == 'piwik-verify':
+        return 'piwik_verify'
+    return collector.get('type').get('slug')
+
+
 def setup_time_data_sets(collectors, entrypoint_information):
     """Testing returns correct time grouped data sets
     >>> entrypoint_information = {
@@ -195,7 +226,7 @@ def setup_time_data_sets(collectors, entrypoint_information):
     for collector in collectors:
         entrypoint = collector.get('entry_point')
         token_file = "tokens/{0}.json".format(
-            collector.get('type').get('slug'))
+            get_token_file_from_collector(collector))
 
         collector_info = entrypoint_information.get(entrypoint, None)
 
