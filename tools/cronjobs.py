@@ -277,8 +277,6 @@ def main():
             if 'daily' in time_data_sets else []
         hourly_jobs = hourly(time_data_sets['hourly']) \
             if 'hourly' in time_data_sets else []
-        two_minute_jobs = two_minute(time_data_sets['2minute']) \
-            if '2minute' in time_data_sets else []
 
         spacer = ['', '']
         cronjobs_content = [
@@ -288,9 +286,7 @@ def main():
         ] + spacer + \
             daily_jobs + \
             spacer + \
-            hourly_jobs + \
-            spacer + \
-            two_minute_jobs
+            hourly_jobs
 
         print('\n'.join(cronjobs_content))
     except ValueError as e:
