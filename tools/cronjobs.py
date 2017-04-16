@@ -34,6 +34,18 @@ entrypoint_information = {
         ],
         'repeat': 'hourly',
     },
+    'performanceplatform.collector.webtrends.reports': {
+        'credentials': {
+            u'nhs-choices': 'credentials/'
+            'webtrends_nhs_choices.json'},
+        'repeat': 'daily',
+    },
+    'performanceplatform.collector.webtrends.keymetrics': {
+        'credentials': {
+            u'nhs-choices': 'credentials/'
+            'webtrends_nhs_choices.json'},
+        'repeat': 'hourly',
+    },
     'performanceplatform.collector.ga.trending': {
         'credentials': [
             ('^gov[-]?uk.*$',
