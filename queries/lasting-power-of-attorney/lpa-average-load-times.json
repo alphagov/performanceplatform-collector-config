@@ -1,0 +1,29 @@
+{
+    "data-set": {
+        "data-group": "test-ga-queries",
+        "data-type": "average-page-load-time-by-day"
+    },
+    "entrypoint": "performanceplatform.collector.ga",
+    "query": {
+        "frequency": "daily",
+        "dimensions": [
+            "date"
+        ],
+        "id": "ga:74575786",
+        "metrics": [
+            "avgPageLoadTime"
+        ]
+    },
+    "options": {
+        "idMapping": [
+            "_timestamp",
+            "period",
+            "dataType",
+            "date"
+        ],
+        "mappings": {
+            "timeSpan": "period"
+        }
+    },
+    "token": "ga"
+}
